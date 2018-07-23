@@ -3,12 +3,21 @@ import { NavLink } from 'react-router-dom';
 import './Header.css';
 
 const Header = () => {
+
+  const fetchAndCleanArticles = () => {
+    const searchKeyWord = articlesSelector();
+    const psychNews = await fetchArticles(searchKeyWord);
+    const articles = await cleanPsychArticles(psychNews.articles);
+    this.props.addArticles(articles)
+  }
+
   return (
     <header>
       <h1 className="app-name">Kevin Harrington, Ph.D.</h1>
       <ul className="menu">
         <li><NavLink 
           to="/"
+          onClick=""
           className="nav drop-btn">
           Home
         </NavLink></li>

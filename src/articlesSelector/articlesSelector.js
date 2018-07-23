@@ -1,26 +1,26 @@
-export const articlesSelector = () => {
+export const articlesSelector = (url) => {
   switch(window.location.href) {
-    case '':
+    case 'http://localhost:3000/':
       let searchKeyWord = 'psychology'
       return searchKeyWord;
     
-    case 'resilience':
+    case 'http://localhost:3000/resilience':
       searchKeyWord = 'inspiration'
       return searchKeyWord;
 
-    case 'parenting':
+    case 'http://localhost:3000/parenting':
       searchKeyWord = 'parenting';
       return searchKeyWord;
 
-    case 'psychotherapy':
+    case 'http://localhost:3000/psychotherapy':
       searchKeyWord = 'psychotherapy';
       return searchKeyWord;
 
-      case 'speaking':
+      case 'http://localhost:3000/speaking':
       searchKeyWord = 'psychology'
       return searchKeyWord;
 
-      case 'family':
+      case 'http://localhost:3000/family':
       searchKeyWord = 'parenting'
       return searchKeyWord;
   }
