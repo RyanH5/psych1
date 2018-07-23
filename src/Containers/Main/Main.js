@@ -1,6 +1,6 @@
 import React from 'react';
 import { NewsArticles } from '../NewsArticles/NewsArticles';
-import Home from '../Home/Home';
+import DisplayPage from '../DisplayPage/DisplayPage';
 import { Route } from 'react-router-dom';
 
 export const Main = () => {
@@ -8,7 +8,27 @@ export const Main = () => {
     <div>
       <Route
         exact path="/"
-        component={Home}
+        component={DisplayPage}
+      />
+      <Route
+        exact path="/resilience"
+        component={DisplayPage}
+      />
+      <Route
+        exact path="/parenting"
+        component={DisplayPage}
+      />
+      <Route
+        exact path="/psychotherapy"
+        component={DisplayPage}
+      />
+      <Route
+        exact path="/speaking"
+        component={DisplayPage}
+      />
+      <Route
+        exact path="/family"
+        component={DisplayPage}
       />
     </div>
   )

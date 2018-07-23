@@ -6,7 +6,7 @@ import { addArticles } from '../../actions/actions';
 import { NewsArticles } from '../NewsArticles/NewsArticles';
 import { articlesSelector } from '../../articlesSelector/articlesSelector';
 
-export class Home extends Component {
+export class DisplayPage extends Component {
 
   async componentDidMount() {
     const searchKeyWord = articlesSelector();
@@ -26,10 +26,10 @@ export class Home extends Component {
 
 export const mapStateToProps = (state) => ({
   articles: state.articles
-})
+});
 
 export const mapDispatchToProps = (dispatch) => ({
   addArticles: (articles) => dispatch(addArticles(articles))
-})
+});
 
-export default connect(mapStateToProps, mapDispatchToProps)(Home);
+export default connect(mapStateToProps, mapDispatchToProps)(DisplayPage);
