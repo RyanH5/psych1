@@ -1,10 +1,14 @@
+import { secondaryFetch } from '../apiCalls/apiCalls';
+
 export const cleanPsychArticles = (articles) => {
-  const cleanedPsychArticles = articles.map(article => {
+  const cleanedPsychArticles = articles.map(async article => {
+    // console.log('art', article)
     const author = article.author;
     const description = article.description;
     const publishedAt = article.publishedAt;
     const source = article.source;
     const title = article.title;
+    // const url = await secondaryFetch(article.url);
     const url = article.url;
     const urlToImage = urlToImage
     return ({

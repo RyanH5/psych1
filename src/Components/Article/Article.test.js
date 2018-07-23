@@ -1,12 +1,11 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import App from './App';
+import Article from './Article';
 
-describe('App', () => {
+describe('Article', () => {
   it('should match snapshot', () => {
-    let wrapper = shallow(<App />)
+    let wrapper = shallow(<Article source={{name: 'jill'}}/>)
 
     expect(wrapper).toMatchSnapshot();
   })
 })
-

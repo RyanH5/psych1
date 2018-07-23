@@ -8,14 +8,14 @@ const Header = () => {
       <h1 className="app-name">Kevin Harrington, Ph.D.</h1>
       <ul className="menu">
         <li><NavLink 
-          to="/home"
+          to="/"
           className="nav drop-btn">
           Home
         </NavLink></li>
         <div className="dropdown">
           <li><NavLink 
-            to="/resilience"
-            className="nav drop-btn">
+          to="/resilience"
+          className="nav drop-btn">
             Resilience Training
           </NavLink></li>
             <div className="dropdown-content">

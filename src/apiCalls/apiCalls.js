@@ -6,3 +6,15 @@ export const fetchArticles = async (searchKeyWord) => {
   const psychNews = await response.json();
   return psychNews;
 }
+
+export const secondaryFetch = async (url) => {
+  try {
+    const response = await fetch(url, {mode: 'no-cors'});
+    if (response.status === 200) {
+      const secondaryData = await response.json();
+      return secondaryData;
+    }
+  } catch (error) {
+    throw new Error(`${error.message}`);
+  }
+}
