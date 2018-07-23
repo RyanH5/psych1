@@ -1,5 +1,6 @@
 import React from 'react';
 import Article from '../../Components/Article/Article';
+import "./NewsArticles.css";
 
 export const NewsArticles = ({articles}) => {
   const numArticles = 3;
@@ -10,6 +11,6 @@ export const NewsArticles = ({articles}) => {
       })
 
   return (
-    <div>{displayArticles}</div>
+    <div className="displayed-articles">{displayArticles}</div>
   )
 }

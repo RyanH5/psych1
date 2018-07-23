@@ -1,5 +1,6 @@
-import { apiKey } from '../apiKey';
+//import { apiKey } from '../apiKey';
 
+const apiKey = '5af41368a09b4d6ca620fc641402597e'
 export const fetchArticles = async (searchKeyWord) => {
   console.log(searchKeyWord)
   const url = `https://newsapi.org/v2/everything?q=${searchKeyWord}&from=2018-07-20&sortBy=popularity&apiKey=${apiKey}`;

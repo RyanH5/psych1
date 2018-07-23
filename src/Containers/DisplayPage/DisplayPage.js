@@ -9,7 +9,7 @@ import { articlesSelector } from '../../articlesSelector/articlesSelector';
 export class DisplayPage extends Component {
 
   async componentDidMount() {
-    const searchKeyWord = articlesSelector();
+    const searchKeyWord = articlesSelector(this.props.location.pathname);
     const psychNews = await fetchArticles(searchKeyWord);
     const articles = await cleanPsychArticles(psychNews.articles);
     this.props.addArticles(articles)
