@@ -5,6 +5,8 @@ import { connect } from 'react-redux';
 import { addArticles } from '../../actions/actions';
 import { NewsArticles } from '../NewsArticles/NewsArticles';
 import { articlesSelector } from '../../articlesSelector/articlesSelector';
+import MainContent from '../../Components/MainContent/MainContent';
+
 
 export class DisplayPage extends Component {
 
@@ -17,7 +19,8 @@ export class DisplayPage extends Component {
 
   render() {
     return (
-      <main>       
+      <main>
+        <MainContent />       
         <NewsArticles articles={this.props.articles}/>
       </main>
     )

@@ -1,19 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`NewsArticles should match snapshot 1`] = `
+exports[`DisplayPage should match snapshot 1`] = `
 ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Unknown
-    articles={
-        Array [
-            Object {
-              "name": "WSJ",
-              "title": "hey",
-            },
-          ]
-    }
-/>,
+  Symbol(enzyme.__unrendered__): <DisplayPage />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -27,29 +18,36 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <Article
-          name="WSJ"
-          title="hey"
+        <MainContent />,
+        <Unknown
+          articles={undefined}
 />,
       ],
-      "className": "displayed-articles",
     },
     "ref": null,
     "rendered": Array [
       Object {
         "instance": null,
-        "key": "0",
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
         "nodeType": "function",
         "props": Object {
-          "name": "WSJ",
-          "title": "hey",
+          "articles": undefined,
         },
         "ref": null,
         "rendered": null,
         "type": [Function],
       },
     ],
-    "type": "div",
+    "type": "main",
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
@@ -58,29 +56,36 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <Article
-            name="WSJ"
-            title="hey"
+          <MainContent />,
+          <Unknown
+            articles={undefined}
 />,
         ],
-        "className": "displayed-articles",
       },
       "ref": null,
       "rendered": Array [
         Object {
           "instance": null,
-          "key": "0",
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
           "nodeType": "function",
           "props": Object {
-            "name": "WSJ",
-            "title": "hey",
+            "articles": undefined,
           },
           "ref": null,
           "rendered": null,
           "type": [Function],
         },
       ],
-      "type": "div",
+      "type": "main",
     },
   ],
   Symbol(enzyme.__options__): Object {
@@ -89,6 +94,7 @@ ShallowWrapper {
         "enableComponentDidUpdateOnSetState": true,
       },
     },
+    "disableLifecycleMethods": true,
   },
 }
 `;

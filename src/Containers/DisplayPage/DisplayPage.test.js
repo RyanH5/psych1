@@ -1,13 +1,13 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import { addArticles } from '../../actions/actions';
-import { Home, mapStateToProps, mapDispatchToProps } from './Home';
+import { DisplayPage, mapStateToProps, mapDispatchToProps } from './DisplayPage';
 
-describe('Home', () => {
+describe('DisplayPage', () => {
   let wrapper;
 
   beforeEach(() => {
-    wrapper = shallow(<Home />, { disableLifecycleMethods: true});
+    wrapper = shallow(<DisplayPage />, { disableLifecycleMethods: true});
   });
 
   it('should match snapshot', () => {
