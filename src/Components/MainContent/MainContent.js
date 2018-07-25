@@ -5,7 +5,7 @@ import PsychHome from '../PsychHome/PsychHome';
 
 const MainContent = () => {
   return (
-    <div>
+    <div className="individual-content-container">
       <Route
         exact path="/"
         component={PsychHome}

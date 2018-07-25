@@ -49,6 +49,7 @@ ShallowWrapper {
           path="/family"
 />,
       ],
+      "className": "main-container",
     },
     "ref": null,
     "rendered": Array [
@@ -171,6 +172,7 @@ ShallowWrapper {
             path="/family"
 />,
         ],
+        "className": "main-container",
       },
       "ref": null,
       "rendered": Array [

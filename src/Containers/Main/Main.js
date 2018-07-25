@@ -2,10 +2,11 @@ import React from 'react';
 import { NewsArticles } from '../NewsArticles/NewsArticles';
 import DisplayPage from '../DisplayPage/DisplayPage';
 import { Route } from 'react-router-dom';
+import './Main.css';
 
 export const Main = () => {
   return (
-    <div>
+    <div className="main-container">
       <Route
         exact path="/"
         component={DisplayPage}
