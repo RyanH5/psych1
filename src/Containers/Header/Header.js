@@ -4,12 +4,12 @@ import './Header.css';
 
 const Header = () => {
 
-  const fetchAndCleanArticles = () => {
-    const searchKeyWord = articlesSelector();
-    const psychNews = await fetchArticles(searchKeyWord);
-    const articles = await cleanPsychArticles(psychNews.articles);
-    this.props.addArticles(articles)
-  }
+  // const fetchAndCleanArticles = () => {
+  //   const searchKeyWord = articlesSelector();
+  //   const psychNews = await fetchArticles(searchKeyWord);
+  //   const articles = await cleanPsychArticles(psychNews.articles);
+  //   this.props.addArticles(articles)
+  // }
 
   return (
     <header>
@@ -17,7 +17,7 @@ const Header = () => {
       <ul className="menu">
         <li><NavLink 
           to="/"
-          onClick=""
+          // onClick=""
           className="nav drop-btn">
           Home
         </NavLink></li>

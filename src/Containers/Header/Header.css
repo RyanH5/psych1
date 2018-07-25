@@ -1,6 +1,8 @@
 header {
     padding: 20px 20px 10px;
     background: linear-gradient(#4DAAF5, #276AB8);
+    position: fixed;
+    width: 100vw;
 }
 
 .app-name {

@@ -5,11 +5,13 @@ import { connect } from 'react-redux';
 import { addArticles } from '../../actions/actions';
 import { NewsArticles } from '../NewsArticles/NewsArticles';
 import { articlesSelector } from '../../articlesSelector/articlesSelector';
+import MainContent from '../../Components/MainContent/MainContent';
+
 
 export class DisplayPage extends Component {
 
   async componentDidMount() {
-    const searchKeyWord = articlesSelector();
+    const searchKeyWord = articlesSelector(this.props.location.pathname);
     const psychNews = await fetchArticles(searchKeyWord);
     const articles = await cleanPsychArticles(psychNews.articles);
     this.props.addArticles(articles)
@@ -17,7 +19,8 @@ export class DisplayPage extends Component {
 
   render() {
     return (
-      <main>       
+      <main>
+        <MainContent />       
         <NewsArticles articles={this.props.articles}/>
       </main>
     )

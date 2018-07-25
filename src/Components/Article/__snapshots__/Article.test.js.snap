@@ -31,7 +31,9 @@ ShallowWrapper {
           jill
 </h6>,
         <a
+          className="article-link"
           href={undefined}
+          target="_blank"
 />,
       ],
     },
@@ -87,7 +89,9 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": undefined,
+          "className": "article-link",
           "href": undefined,
+          "target": "_blank",
         },
         "ref": null,
         "rendered": null,
@@ -110,7 +114,9 @@ ShallowWrapper {
             jill
 </h6>,
           <a
+            className="article-link"
             href={undefined}
+            target="_blank"
 />,
         ],
       },
@@ -166,7 +172,9 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": undefined,
+            "className": "article-link",
             "href": undefined,
+            "target": "_blank",
           },
           "ref": null,
           "rendered": null,
