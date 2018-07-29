@@ -12,6 +12,9 @@ const Article = (props) => {
         >
         {props.title}
       </a> 
+      <img 
+        className="news-image"
+        src={props.urlToImage} />
       <p>{props.description}</p>
       <h5>{props.author}</h5>
       <h6>{props.source.name}</h6>    

@@ -1,5 +1,5 @@
 .article-link {
-  color: black;
+  color: blue;
   font-size: 18px;
   font-weight: 600;
 }
@@ -10,4 +10,11 @@
   border-radius: 16px;
   border: 2px solid gray;
   margin-bottom: 10px;
+}
+
+.news-image {
+  width: 338px;
+  display: block;
+  margin: 10px auto;
+  box-shadow: 4px 3px 3px black;
 }

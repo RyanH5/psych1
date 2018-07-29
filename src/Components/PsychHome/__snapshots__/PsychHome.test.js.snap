@@ -1,0 +1,1223 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PsychHome should match snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <PsychHome />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="top-two"
+>
+        <p
+                className="first-paragraph"
+        >
+                <div
+                        className="uncle-k"
+                />
+                This website is intended to provide resources to assist you in making decisions about your physical health, brain health and emotional health. I have been working in the field of psychology for over 25 years. My practice involves providing resilience training to healthcare providers, schools and families. In addition, I provide Effective Parenting Seminars as well as psychotherapy for children, adolescents, adults and families. I am often invited to speak to parents, school staff, healthcare professionals, and organizations about developing mind-body- heart skills and resiliency skills. I invite you to review the resources and please feel free to contact me if I can be further assistance. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+        </p>
+        <div
+                className="both-schedules"
+        >
+                <div
+                        className="seminar-schedule"
+                >
+                        <h2>
+                                Seminar Schedule
+                        </h2>
+                        <h3>
+                                Parentin on Purpose
+                        </h3>
+                        <h4>
+                                May 4 - May 5, 2018
+                        </h4>
+                        <span>
+                                Friday 7:00pm - 9:00pm
+                        </span>
+                        <span>
+                                Saturday 2:00 - 7:00pm
+                        </span>
+                        <span>
+                                Price $50
+                        </span>
+                        <span>
+                                Family Conference
+                        </span>
+                        <span>
+                                Culver City, California
+                        </span>
+                </div>
+                <div
+                        className="training-schedule"
+                >
+                        <h2>
+                                Training/Speaking Schedule
+                        </h2>
+                        <h3>
+                                MACMH Fall Conference
+                        </h3>
+                        <span>
+                                Mount Zion, 1300 Summit Ave
+                        </span>
+                        <span>
+                                St. Paul Mn
+                                <span
+                                        className="zip"
+                                >
+                                        5510
+                                </span>
+                        </span>
+                        <span>
+                                November 30, 2018
+                        </span>
+                        <span>
+                                Developing Resilience Skills with
+                        </span>
+                        <span>
+                                Elementary and Middle School
+                        </span>
+                        <span>
+                                Aged Children
+                        </span>
+                        <a
+                                className="child-health-link"
+                                href="http://www.macmh.org/"
+                                target="_blank"
+                        >
+                                Minnesota Association for Childrens Mental Health
+                        </a>
+                </div>
+        </div>
+</div>,
+      "className": "content-container",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <p
+            className="first-paragraph"
+>
+            <div
+                        className="uncle-k"
+            />
+            This website is intended to provide resources to assist you in making decisions about your physical health, brain health and emotional health. I have been working in the field of psychology for over 25 years. My practice involves providing resilience training to healthcare providers, schools and families. In addition, I provide Effective Parenting Seminars as well as psychotherapy for children, adolescents, adults and families. I am often invited to speak to parents, school staff, healthcare professionals, and organizations about developing mind-body- heart skills and resiliency skills. I invite you to review the resources and please feel free to contact me if I can be further assistance. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+</p>,
+          <div
+            className="both-schedules"
+>
+            <div
+                        className="seminar-schedule"
+            >
+                        <h2>
+                                    Seminar Schedule
+                        </h2>
+                        <h3>
+                                    Parentin on Purpose
+                        </h3>
+                        <h4>
+                                    May 4 - May 5, 2018
+                        </h4>
+                        <span>
+                                    Friday 7:00pm - 9:00pm
+                        </span>
+                        <span>
+                                    Saturday 2:00 - 7:00pm
+                        </span>
+                        <span>
+                                    Price $50
+                        </span>
+                        <span>
+                                    Family Conference
+                        </span>
+                        <span>
+                                    Culver City, California
+                        </span>
+            </div>
+            <div
+                        className="training-schedule"
+            >
+                        <h2>
+                                    Training/Speaking Schedule
+                        </h2>
+                        <h3>
+                                    MACMH Fall Conference
+                        </h3>
+                        <span>
+                                    Mount Zion, 1300 Summit Ave
+                        </span>
+                        <span>
+                                    St. Paul Mn
+                                    <span
+                                                className="zip"
+                                    >
+                                                5510
+                                    </span>
+                        </span>
+                        <span>
+                                    November 30, 2018
+                        </span>
+                        <span>
+                                    Developing Resilience Skills with
+                        </span>
+                        <span>
+                                    Elementary and Middle School
+                        </span>
+                        <span>
+                                    Aged Children
+                        </span>
+                        <a
+                                    className="child-health-link"
+                                    href="http://www.macmh.org/"
+                                    target="_blank"
+                        >
+                                    Minnesota Association for Childrens Mental Health
+                        </a>
+            </div>
+</div>,
+        ],
+        "className": "top-two",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="uncle-k"
+/>,
+              "This website is intended to provide resources to assist you in making decisions about your physical health, brain health and emotional health. I have been working in the field of psychology for over 25 years. My practice involves providing resilience training to healthcare providers, schools and families. In addition, I provide Effective Parenting Seminars as well as psychotherapy for children, adolescents, adults and families. I am often invited to speak to parents, school staff, healthcare professionals, and organizations about developing mind-body- heart skills and resiliency skills. I invite you to review the resources and please feel free to contact me if I can be further assistance. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+            ],
+            "className": "first-paragraph",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "uncle-k",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+            "This website is intended to provide resources to assist you in making decisions about your physical health, brain health and emotional health. I have been working in the field of psychology for over 25 years. My practice involves providing resilience training to healthcare providers, schools and families. In addition, I provide Effective Parenting Seminars as well as psychotherapy for children, adolescents, adults and families. I am often invited to speak to parents, school staff, healthcare professionals, and organizations about developing mind-body- heart skills and resiliency skills. I invite you to review the resources and please feel free to contact me if I can be further assistance. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+          ],
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="seminar-schedule"
+>
+                <h2>
+                                Seminar Schedule
+                </h2>
+                <h3>
+                                Parentin on Purpose
+                </h3>
+                <h4>
+                                May 4 - May 5, 2018
+                </h4>
+                <span>
+                                Friday 7:00pm - 9:00pm
+                </span>
+                <span>
+                                Saturday 2:00 - 7:00pm
+                </span>
+                <span>
+                                Price $50
+                </span>
+                <span>
+                                Family Conference
+                </span>
+                <span>
+                                Culver City, California
+                </span>
+</div>,
+              <div
+                className="training-schedule"
+>
+                <h2>
+                                Training/Speaking Schedule
+                </h2>
+                <h3>
+                                MACMH Fall Conference
+                </h3>
+                <span>
+                                Mount Zion, 1300 Summit Ave
+                </span>
+                <span>
+                                St. Paul Mn
+                                <span
+                                                className="zip"
+                                >
+                                                5510
+                                </span>
+                </span>
+                <span>
+                                November 30, 2018
+                </span>
+                <span>
+                                Developing Resilience Skills with
+                </span>
+                <span>
+                                Elementary and Middle School
+                </span>
+                <span>
+                                Aged Children
+                </span>
+                <a
+                                className="child-health-link"
+                                href="http://www.macmh.org/"
+                                target="_blank"
+                >
+                                Minnesota Association for Childrens Mental Health
+                </a>
+</div>,
+            ],
+            "className": "both-schedules",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h2>
+                    Seminar Schedule
+</h2>,
+                  <h3>
+                    Parentin on Purpose
+</h3>,
+                  <h4>
+                    May 4 - May 5, 2018
+</h4>,
+                  <span>
+                    Friday 7:00pm - 9:00pm
+</span>,
+                  <span>
+                    Saturday 2:00 - 7:00pm
+</span>,
+                  <span>
+                    Price $50
+</span>,
+                  <span>
+                    Family Conference
+</span>,
+                  <span>
+                    Culver City, California
+</span>,
+                ],
+                "className": "seminar-schedule",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Seminar Schedule",
+                  },
+                  "ref": null,
+                  "rendered": "Seminar Schedule",
+                  "type": "h2",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Parentin on Purpose",
+                  },
+                  "ref": null,
+                  "rendered": "Parentin on Purpose",
+                  "type": "h3",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "May 4 - May 5, 2018",
+                  },
+                  "ref": null,
+                  "rendered": "May 4 - May 5, 2018",
+                  "type": "h4",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Friday 7:00pm - 9:00pm",
+                  },
+                  "ref": null,
+                  "rendered": "Friday 7:00pm - 9:00pm",
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Saturday 2:00 - 7:00pm",
+                  },
+                  "ref": null,
+                  "rendered": "Saturday 2:00 - 7:00pm",
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Price $50",
+                  },
+                  "ref": null,
+                  "rendered": "Price $50",
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Family Conference",
+                  },
+                  "ref": null,
+                  "rendered": "Family Conference",
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Culver City, California",
+                  },
+                  "ref": null,
+                  "rendered": "Culver City, California",
+                  "type": "span",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h2>
+                    Training/Speaking Schedule
+</h2>,
+                  <h3>
+                    MACMH Fall Conference
+</h3>,
+                  <span>
+                    Mount Zion, 1300 Summit Ave
+</span>,
+                  <span>
+                    St. Paul Mn
+                    <span
+                                        className="zip"
+                    >
+                                        5510
+                    </span>
+</span>,
+                  <span>
+                    November 30, 2018
+</span>,
+                  <span>
+                    Developing Resilience Skills with
+</span>,
+                  <span>
+                    Elementary and Middle School
+</span>,
+                  <span>
+                    Aged Children
+</span>,
+                  <a
+                    className="child-health-link"
+                    href="http://www.macmh.org/"
+                    target="_blank"
+>
+                    Minnesota Association for Childrens Mental Health
+</a>,
+                ],
+                "className": "training-schedule",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Training/Speaking Schedule",
+                  },
+                  "ref": null,
+                  "rendered": "Training/Speaking Schedule",
+                  "type": "h2",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "MACMH Fall Conference",
+                  },
+                  "ref": null,
+                  "rendered": "MACMH Fall Conference",
+                  "type": "h3",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Mount Zion, 1300 Summit Ave",
+                  },
+                  "ref": null,
+                  "rendered": "Mount Zion, 1300 Summit Ave",
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "St. Paul Mn",
+                      <span
+                        className="zip"
+>
+                        5510
+</span>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "St. Paul Mn",
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "5510",
+                        "className": "zip",
+                      },
+                      "ref": null,
+                      "rendered": "5510",
+                      "type": "span",
+                    },
+                  ],
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "November 30, 2018",
+                  },
+                  "ref": null,
+                  "rendered": "November 30, 2018",
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Developing Resilience Skills with",
+                  },
+                  "ref": null,
+                  "rendered": "Developing Resilience Skills with",
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Elementary and Middle School",
+                  },
+                  "ref": null,
+                  "rendered": "Elementary and Middle School",
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Aged Children",
+                  },
+                  "ref": null,
+                  "rendered": "Aged Children",
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Minnesota Association for Childrens Mental Health",
+                    "className": "child-health-link",
+                    "href": "http://www.macmh.org/",
+                    "target": "_blank",
+                  },
+                  "ref": null,
+                  "rendered": "Minnesota Association for Childrens Mental Health",
+                  "type": "a",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="top-two"
+>
+          <p
+                    className="first-paragraph"
+          >
+                    <div
+                              className="uncle-k"
+                    />
+                    This website is intended to provide resources to assist you in making decisions about your physical health, brain health and emotional health. I have been working in the field of psychology for over 25 years. My practice involves providing resilience training to healthcare providers, schools and families. In addition, I provide Effective Parenting Seminars as well as psychotherapy for children, adolescents, adults and families. I am often invited to speak to parents, school staff, healthcare professionals, and organizations about developing mind-body- heart skills and resiliency skills. I invite you to review the resources and please feel free to contact me if I can be further assistance. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+          </p>
+          <div
+                    className="both-schedules"
+          >
+                    <div
+                              className="seminar-schedule"
+                    >
+                              <h2>
+                                        Seminar Schedule
+                              </h2>
+                              <h3>
+                                        Parentin on Purpose
+                              </h3>
+                              <h4>
+                                        May 4 - May 5, 2018
+                              </h4>
+                              <span>
+                                        Friday 7:00pm - 9:00pm
+                              </span>
+                              <span>
+                                        Saturday 2:00 - 7:00pm
+                              </span>
+                              <span>
+                                        Price $50
+                              </span>
+                              <span>
+                                        Family Conference
+                              </span>
+                              <span>
+                                        Culver City, California
+                              </span>
+                    </div>
+                    <div
+                              className="training-schedule"
+                    >
+                              <h2>
+                                        Training/Speaking Schedule
+                              </h2>
+                              <h3>
+                                        MACMH Fall Conference
+                              </h3>
+                              <span>
+                                        Mount Zion, 1300 Summit Ave
+                              </span>
+                              <span>
+                                        St. Paul Mn
+                                        <span
+                                                  className="zip"
+                                        >
+                                                  5510
+                                        </span>
+                              </span>
+                              <span>
+                                        November 30, 2018
+                              </span>
+                              <span>
+                                        Developing Resilience Skills with
+                              </span>
+                              <span>
+                                        Elementary and Middle School
+                              </span>
+                              <span>
+                                        Aged Children
+                              </span>
+                              <a
+                                        className="child-health-link"
+                                        href="http://www.macmh.org/"
+                                        target="_blank"
+                              >
+                                        Minnesota Association for Childrens Mental Health
+                              </a>
+                    </div>
+          </div>
+</div>,
+        "className": "content-container",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <p
+              className="first-paragraph"
+>
+              <div
+                            className="uncle-k"
+              />
+              This website is intended to provide resources to assist you in making decisions about your physical health, brain health and emotional health. I have been working in the field of psychology for over 25 years. My practice involves providing resilience training to healthcare providers, schools and families. In addition, I provide Effective Parenting Seminars as well as psychotherapy for children, adolescents, adults and families. I am often invited to speak to parents, school staff, healthcare professionals, and organizations about developing mind-body- heart skills and resiliency skills. I invite you to review the resources and please feel free to contact me if I can be further assistance. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+</p>,
+            <div
+              className="both-schedules"
+>
+              <div
+                            className="seminar-schedule"
+              >
+                            <h2>
+                                          Seminar Schedule
+                            </h2>
+                            <h3>
+                                          Parentin on Purpose
+                            </h3>
+                            <h4>
+                                          May 4 - May 5, 2018
+                            </h4>
+                            <span>
+                                          Friday 7:00pm - 9:00pm
+                            </span>
+                            <span>
+                                          Saturday 2:00 - 7:00pm
+                            </span>
+                            <span>
+                                          Price $50
+                            </span>
+                            <span>
+                                          Family Conference
+                            </span>
+                            <span>
+                                          Culver City, California
+                            </span>
+              </div>
+              <div
+                            className="training-schedule"
+              >
+                            <h2>
+                                          Training/Speaking Schedule
+                            </h2>
+                            <h3>
+                                          MACMH Fall Conference
+                            </h3>
+                            <span>
+                                          Mount Zion, 1300 Summit Ave
+                            </span>
+                            <span>
+                                          St. Paul Mn
+                                          <span
+                                                        className="zip"
+                                          >
+                                                        5510
+                                          </span>
+                            </span>
+                            <span>
+                                          November 30, 2018
+                            </span>
+                            <span>
+                                          Developing Resilience Skills with
+                            </span>
+                            <span>
+                                          Elementary and Middle School
+                            </span>
+                            <span>
+                                          Aged Children
+                            </span>
+                            <a
+                                          className="child-health-link"
+                                          href="http://www.macmh.org/"
+                                          target="_blank"
+                            >
+                                          Minnesota Association for Childrens Mental Health
+                            </a>
+              </div>
+</div>,
+          ],
+          "className": "top-two",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="uncle-k"
+/>,
+                "This website is intended to provide resources to assist you in making decisions about your physical health, brain health and emotional health. I have been working in the field of psychology for over 25 years. My practice involves providing resilience training to healthcare providers, schools and families. In addition, I provide Effective Parenting Seminars as well as psychotherapy for children, adolescents, adults and families. I am often invited to speak to parents, school staff, healthcare professionals, and organizations about developing mind-body- heart skills and resiliency skills. I invite you to review the resources and please feel free to contact me if I can be further assistance. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+              ],
+              "className": "first-paragraph",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "uncle-k",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "div",
+              },
+              "This website is intended to provide resources to assist you in making decisions about your physical health, brain health and emotional health. I have been working in the field of psychology for over 25 years. My practice involves providing resilience training to healthcare providers, schools and families. In addition, I provide Effective Parenting Seminars as well as psychotherapy for children, adolescents, adults and families. I am often invited to speak to parents, school staff, healthcare professionals, and organizations about developing mind-body- heart skills and resiliency skills. I invite you to review the resources and please feel free to contact me if I can be further assistance. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+            ],
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="seminar-schedule"
+>
+                  <h2>
+                                    Seminar Schedule
+                  </h2>
+                  <h3>
+                                    Parentin on Purpose
+                  </h3>
+                  <h4>
+                                    May 4 - May 5, 2018
+                  </h4>
+                  <span>
+                                    Friday 7:00pm - 9:00pm
+                  </span>
+                  <span>
+                                    Saturday 2:00 - 7:00pm
+                  </span>
+                  <span>
+                                    Price $50
+                  </span>
+                  <span>
+                                    Family Conference
+                  </span>
+                  <span>
+                                    Culver City, California
+                  </span>
+</div>,
+                <div
+                  className="training-schedule"
+>
+                  <h2>
+                                    Training/Speaking Schedule
+                  </h2>
+                  <h3>
+                                    MACMH Fall Conference
+                  </h3>
+                  <span>
+                                    Mount Zion, 1300 Summit Ave
+                  </span>
+                  <span>
+                                    St. Paul Mn
+                                    <span
+                                                      className="zip"
+                                    >
+                                                      5510
+                                    </span>
+                  </span>
+                  <span>
+                                    November 30, 2018
+                  </span>
+                  <span>
+                                    Developing Resilience Skills with
+                  </span>
+                  <span>
+                                    Elementary and Middle School
+                  </span>
+                  <span>
+                                    Aged Children
+                  </span>
+                  <a
+                                    className="child-health-link"
+                                    href="http://www.macmh.org/"
+                                    target="_blank"
+                  >
+                                    Minnesota Association for Childrens Mental Health
+                  </a>
+</div>,
+              ],
+              "className": "both-schedules",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <h2>
+                      Seminar Schedule
+</h2>,
+                    <h3>
+                      Parentin on Purpose
+</h3>,
+                    <h4>
+                      May 4 - May 5, 2018
+</h4>,
+                    <span>
+                      Friday 7:00pm - 9:00pm
+</span>,
+                    <span>
+                      Saturday 2:00 - 7:00pm
+</span>,
+                    <span>
+                      Price $50
+</span>,
+                    <span>
+                      Family Conference
+</span>,
+                    <span>
+                      Culver City, California
+</span>,
+                  ],
+                  "className": "seminar-schedule",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Seminar Schedule",
+                    },
+                    "ref": null,
+                    "rendered": "Seminar Schedule",
+                    "type": "h2",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Parentin on Purpose",
+                    },
+                    "ref": null,
+                    "rendered": "Parentin on Purpose",
+                    "type": "h3",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "May 4 - May 5, 2018",
+                    },
+                    "ref": null,
+                    "rendered": "May 4 - May 5, 2018",
+                    "type": "h4",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Friday 7:00pm - 9:00pm",
+                    },
+                    "ref": null,
+                    "rendered": "Friday 7:00pm - 9:00pm",
+                    "type": "span",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Saturday 2:00 - 7:00pm",
+                    },
+                    "ref": null,
+                    "rendered": "Saturday 2:00 - 7:00pm",
+                    "type": "span",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Price $50",
+                    },
+                    "ref": null,
+                    "rendered": "Price $50",
+                    "type": "span",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Family Conference",
+                    },
+                    "ref": null,
+                    "rendered": "Family Conference",
+                    "type": "span",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Culver City, California",
+                    },
+                    "ref": null,
+                    "rendered": "Culver City, California",
+                    "type": "span",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <h2>
+                      Training/Speaking Schedule
+</h2>,
+                    <h3>
+                      MACMH Fall Conference
+</h3>,
+                    <span>
+                      Mount Zion, 1300 Summit Ave
+</span>,
+                    <span>
+                      St. Paul Mn
+                      <span
+                                            className="zip"
+                      >
+                                            5510
+                      </span>
+</span>,
+                    <span>
+                      November 30, 2018
+</span>,
+                    <span>
+                      Developing Resilience Skills with
+</span>,
+                    <span>
+                      Elementary and Middle School
+</span>,
+                    <span>
+                      Aged Children
+</span>,
+                    <a
+                      className="child-health-link"
+                      href="http://www.macmh.org/"
+                      target="_blank"
+>
+                      Minnesota Association for Childrens Mental Health
+</a>,
+                  ],
+                  "className": "training-schedule",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Training/Speaking Schedule",
+                    },
+                    "ref": null,
+                    "rendered": "Training/Speaking Schedule",
+                    "type": "h2",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "MACMH Fall Conference",
+                    },
+                    "ref": null,
+                    "rendered": "MACMH Fall Conference",
+                    "type": "h3",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Mount Zion, 1300 Summit Ave",
+                    },
+                    "ref": null,
+                    "rendered": "Mount Zion, 1300 Summit Ave",
+                    "type": "span",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        "St. Paul Mn",
+                        <span
+                          className="zip"
+>
+                          5510
+</span>,
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "St. Paul Mn",
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "5510",
+                          "className": "zip",
+                        },
+                        "ref": null,
+                        "rendered": "5510",
+                        "type": "span",
+                      },
+                    ],
+                    "type": "span",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "November 30, 2018",
+                    },
+                    "ref": null,
+                    "rendered": "November 30, 2018",
+                    "type": "span",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Developing Resilience Skills with",
+                    },
+                    "ref": null,
+                    "rendered": "Developing Resilience Skills with",
+                    "type": "span",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Elementary and Middle School",
+                    },
+                    "ref": null,
+                    "rendered": "Elementary and Middle School",
+                    "type": "span",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Aged Children",
+                    },
+                    "ref": null,
+                    "rendered": "Aged Children",
+                    "type": "span",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Minnesota Association for Childrens Mental Health",
+                      "className": "child-health-link",
+                      "href": "http://www.macmh.org/",
+                      "target": "_blank",
+                    },
+                    "ref": null,
+                    "rendered": "Minnesota Association for Childrens Mental Health",
+                    "type": "a",
+                  },
+                ],
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

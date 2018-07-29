@@ -24,18 +24,22 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <h2 />,
-        <p />,
-        <h5 />,
-        <h6>
-          jill
-</h6>,
         <a
           className="article-link"
           href={undefined}
           target="_blank"
 />,
+        <img
+          className="news-image"
+          src={undefined}
+/>,
+        <p />,
+        <h5 />,
+        <h6>
+          jill
+</h6>,
       ],
+      "className": "single-article",
     },
     "ref": null,
     "rendered": Array [
@@ -45,10 +49,25 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": undefined,
+          "className": "article-link",
+          "href": undefined,
+          "target": "_blank",
         },
         "ref": null,
         "rendered": null,
-        "type": "h2",
+        "type": "a",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "news-image",
+          "src": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "img",
       },
       Object {
         "instance": null,
@@ -83,20 +102,6 @@ ShallowWrapper {
         "rendered": "jill",
         "type": "h6",
       },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": undefined,
-          "className": "article-link",
-          "href": undefined,
-          "target": "_blank",
-        },
-        "ref": null,
-        "rendered": null,
-        "type": "a",
-      },
     ],
     "type": "div",
   },
@@ -107,18 +112,22 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <h2 />,
-          <p />,
-          <h5 />,
-          <h6>
-            jill
-</h6>,
           <a
             className="article-link"
             href={undefined}
             target="_blank"
 />,
+          <img
+            className="news-image"
+            src={undefined}
+/>,
+          <p />,
+          <h5 />,
+          <h6>
+            jill
+</h6>,
         ],
+        "className": "single-article",
       },
       "ref": null,
       "rendered": Array [
@@ -128,10 +137,25 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": undefined,
+            "className": "article-link",
+            "href": undefined,
+            "target": "_blank",
           },
           "ref": null,
           "rendered": null,
-          "type": "h2",
+          "type": "a",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "news-image",
+            "src": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "img",
         },
         Object {
           "instance": null,
@@ -165,20 +189,6 @@ ShallowWrapper {
           "ref": null,
           "rendered": "jill",
           "type": "h6",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": undefined,
-            "className": "article-link",
-            "href": undefined,
-            "target": "_blank",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": "a",
         },
       ],
       "type": "div",

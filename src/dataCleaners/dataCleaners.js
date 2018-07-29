@@ -8,7 +8,7 @@ export const cleanPsychArticles = (articles) => {
     const source = article.source;
     const title = article.title;
     const url = article.url;
-    const urlToImage = urlToImage
+    const urlToImage = article.urlToImage
     return ({
       author,
       description,
