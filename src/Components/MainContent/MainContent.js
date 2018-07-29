@@ -1,5 +1,4 @@
 import React from 'react';
-import psychHome from '../PsychHome/PsychHome';
 import { Route } from 'react-router'
 import PsychHome from '../PsychHome/PsychHome';
 import SignInPage from '../SignIn/SignIn';
@@ -9,6 +8,7 @@ import { Parenting } from '../Parenting/Parenting'
 import { Speaking } from '../Speaking/Speaking';
 import { Psychotherapy } from '../Psychotherapy/Psychotherapy';
 import { Contact } from '../Contact/Contact';
+import './MainContent.css'
 
 const MainContent = () => {
   return (
