@@ -2,14 +2,24 @@ import React from 'react';
 import psychHome from '../PsychHome/PsychHome';
 import { Route } from 'react-router'
 import PsychHome from '../PsychHome/PsychHome';
+import SignInPage from '../SignIn/SignIn';
+import SignUpPage from '../SignUp/SignUp';
 
 const MainContent = () => {
   return (
     <div className="individual-content-container">
-      <Route
-        exact path="/"
-        component={PsychHome}
-      />
+    <Route
+    exact path="/"
+    component={PsychHome}
+  />
+    <Route
+    exact path="/signin"
+    component={SignInPage}
+  />
+  <Route
+    exact path="/signup"
+    component={SignUpPage}
+  />
     </div>
   )
 }

@@ -1,7 +1,6 @@
 import { secondaryFetch } from '../apiCalls/apiCalls';
 
 export const cleanPsychArticles = (articles) => {
-  console.log(articles)
   const cleanedPsychArticles = articles.map(async article => {
     const author = article.author;
     const description = article.description;
