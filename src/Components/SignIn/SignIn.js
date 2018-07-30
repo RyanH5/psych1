@@ -15,12 +15,6 @@ const byPropKey = (propertyName, value) => () => ({
   [propertyName]: value,
 });
 
-// const INITIAL_STATE = {
-//   email: '',
-//   password: '',
-//   error: null,
-// };
-
 class SignInForm extends Component {
   constructor(props) {
     super(props);
@@ -75,6 +69,7 @@ class SignInForm extends Component {
           onChange={event => this.setState(byPropKey('email', event.target.value))}
           type="text"
           placeholder="Email Address"
+          label="Email"
         />
         <input
           className="sign-in-input"
