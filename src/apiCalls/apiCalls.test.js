@@ -11,12 +11,20 @@ describe('api-calls', () => {
         json: () => Promise.resolve(mockArticles)
       }))
     });
+
     it('should call fetch with the correct params', async () => {
       let url = `https://newsapi.org/v2/everything?q=Psychology&from=2018-07-20&sortBy=popularity&apiKey=${apiKey}`;
       let Psychology = 'Psychology';
       await fetchArticles(Psychology);
 
       expect(window.fetch).toHaveBeenCalledWith(url);
+    });
+
+    it('should return correct data', async () => {
+      const expected = mockArticles;
+      const result = await fetchArticles();
+
+      expect(result).toEqual(expected);
     });
   });
 });

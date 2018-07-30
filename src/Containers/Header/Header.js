@@ -9,13 +9,6 @@ import './Header.css';
 
 const Header = () => {
 
-  // const fetchAndCleanArticles = () => {
-  //   const searchKeyWord = articlesSelector();
-  //   const psychNews = await fetchArticles(searchKeyWord);
-  //   const articles = await cleanPsychArticles(psychNews.articles);
-  //   this.props.addArticles(articles)
-  // }
-
   return (
     <header>
       <h1 className="app-name">Kevin Harrington, Ph.D.</h1>
@@ -80,19 +73,7 @@ const Header = () => {
             className="nav drop-btn">
             Contact
           </NavLink></li>
-          <li><NavLink 
-            to="/signin"
-            className="nav drop-btn">
-            Admin
-          </NavLink></li>
-          <li><NavLink 
-            to="/signup"
-            className="nav drop-btn">
-            Signup
-          </NavLink></li>
-        </ul>
-        
-      
+        </ul>     
       </header>
   )
 }

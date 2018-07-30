@@ -4,17 +4,14 @@ const INITIAL_STATE = {
   users: {},
 };
 
-const applySetUsers = (state, action) => ({
-  ...state,
-  users: action.users
-});
 
-function userReducer(state = INITIAL_STATE, action) {
+
+export const userReducer = (state = INITIAL_STATE, action) => {
   switch(action.type) {
-    case 'USERS_SET' : {
-      return applySetUsers(state, action);
-    }
-    default : return state;
+    case 'USERS_SET' : 
+    return {...state, users: action.users}
+    default: 
+      return state;
   }
 }
 

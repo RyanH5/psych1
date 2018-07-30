@@ -8,6 +8,7 @@ import { Parenting } from '../Parenting/Parenting'
 import { Speaking } from '../Speaking/Speaking';
 import { Psychotherapy } from '../Psychotherapy/Psychotherapy';
 import { Contact } from '../Contact/Contact';
+import { Family } from '../Family/Family';
 import './MainContent.css'
 
 const MainContent = () => {
@@ -36,6 +37,10 @@ const MainContent = () => {
   <Route
     exact path="/speaking"
     component={Speaking}
+  />
+  <Route
+    exact path="/family"
+    component={Family}
   />
   <Route
     exact path="/psychotherapy"

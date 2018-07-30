@@ -154,26 +154,6 @@ ShallowWrapper {
                               Contact
                     </NavLink>
           </li>
-          <li>
-                    <NavLink
-                              activeClassName="active"
-                              aria-current="page"
-                              className="nav drop-btn"
-                              to="/signin"
-                    >
-                              Admin
-                    </NavLink>
-          </li>
-          <li>
-                    <NavLink
-                              activeClassName="active"
-                              aria-current="page"
-                              className="nav drop-btn"
-                              to="/signup"
-                    >
-                              Signup
-                    </NavLink>
-          </li>
 </ul>,
       ],
     },
@@ -323,26 +303,6 @@ ShallowWrapper {
                             to="/contact"
               >
                             Contact
-              </NavLink>
-</li>,
-            <li>
-              <NavLink
-                            activeClassName="active"
-                            aria-current="page"
-                            className="nav drop-btn"
-                            to="/signin"
-              >
-                            Admin
-              </NavLink>
-</li>,
-            <li>
-              <NavLink
-                            activeClassName="active"
-                            aria-current="page"
-                            className="nav drop-btn"
-                            to="/signup"
-              >
-                            Signup
               </NavLink>
 </li>,
           ],
@@ -890,70 +850,6 @@ ShallowWrapper {
             },
             "type": "li",
           },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": <NavLink
-                activeClassName="active"
-                aria-current="page"
-                className="nav drop-btn"
-                to="/signin"
->
-                Admin
-</NavLink>,
-            },
-            "ref": null,
-            "rendered": Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "function",
-              "props": Object {
-                "activeClassName": "active",
-                "aria-current": "page",
-                "children": "Admin",
-                "className": "nav drop-btn",
-                "to": "/signin",
-              },
-              "ref": null,
-              "rendered": "Admin",
-              "type": [Function],
-            },
-            "type": "li",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": <NavLink
-                activeClassName="active"
-                aria-current="page"
-                className="nav drop-btn"
-                to="/signup"
->
-                Signup
-</NavLink>,
-            },
-            "ref": null,
-            "rendered": Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "function",
-              "props": Object {
-                "activeClassName": "active",
-                "aria-current": "page",
-                "children": "Signup",
-                "className": "nav drop-btn",
-                "to": "/signup",
-              },
-              "ref": null,
-              "rendered": "Signup",
-              "type": [Function],
-            },
-            "type": "li",
-          },
         ],
         "type": "ul",
       },
@@ -1101,26 +997,6 @@ ShallowWrapper {
                                     to="/contact"
                         >
                                     Contact
-                        </NavLink>
-            </li>
-            <li>
-                        <NavLink
-                                    activeClassName="active"
-                                    aria-current="page"
-                                    className="nav drop-btn"
-                                    to="/signin"
-                        >
-                                    Admin
-                        </NavLink>
-            </li>
-            <li>
-                        <NavLink
-                                    activeClassName="active"
-                                    aria-current="page"
-                                    className="nav drop-btn"
-                                    to="/signup"
-                        >
-                                    Signup
                         </NavLink>
             </li>
 </ul>,
@@ -1272,26 +1148,6 @@ ShallowWrapper {
                                 to="/contact"
                 >
                                 Contact
-                </NavLink>
-</li>,
-              <li>
-                <NavLink
-                                activeClassName="active"
-                                aria-current="page"
-                                className="nav drop-btn"
-                                to="/signin"
-                >
-                                Admin
-                </NavLink>
-</li>,
-              <li>
-                <NavLink
-                                activeClassName="active"
-                                aria-current="page"
-                                className="nav drop-btn"
-                                to="/signup"
-                >
-                                Signup
                 </NavLink>
 </li>,
             ],
@@ -1835,70 +1691,6 @@ ShallowWrapper {
                 },
                 "ref": null,
                 "rendered": "Contact",
-                "type": [Function],
-              },
-              "type": "li",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": <NavLink
-                  activeClassName="active"
-                  aria-current="page"
-                  className="nav drop-btn"
-                  to="/signin"
->
-                  Admin
-</NavLink>,
-              },
-              "ref": null,
-              "rendered": Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "function",
-                "props": Object {
-                  "activeClassName": "active",
-                  "aria-current": "page",
-                  "children": "Admin",
-                  "className": "nav drop-btn",
-                  "to": "/signin",
-                },
-                "ref": null,
-                "rendered": "Admin",
-                "type": [Function],
-              },
-              "type": "li",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": <NavLink
-                  activeClassName="active"
-                  aria-current="page"
-                  className="nav drop-btn"
-                  to="/signup"
->
-                  Signup
-</NavLink>,
-              },
-              "ref": null,
-              "rendered": Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "function",
-                "props": Object {
-                  "activeClassName": "active",
-                  "aria-current": "page",
-                  "children": "Signup",
-                  "className": "nav drop-btn",
-                  "to": "/signup",
-                },
-                "ref": null,
-                "rendered": "Signup",
                 "type": [Function],
               },
               "type": "li",

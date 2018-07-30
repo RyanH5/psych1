@@ -18,3 +18,11 @@
   margin: 10px auto;
   box-shadow: 4px 3px 3px black;
 }
+
+.article-author {
+  text-align: center;
+}
+
+.article-source {
+  text-align: center;
+}

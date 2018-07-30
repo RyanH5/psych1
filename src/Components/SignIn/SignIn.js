@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom';
-
+import './SignIn.css';
 import { SignUpLink } from '../SignUp/SignUp';
 import { auth } from '../../firebase';
 import * as routes from '../../constants/routes';
 
 const SignInPage = ({ history }) =>
-  <div>
-    <h1>SignIn</h1>
+  <div className="form-container">
+    <h1 className="sign-in-title">SignIn</h1>
     <SignInForm history={history} />
   </div>
 
@@ -15,17 +15,15 @@ const byPropKey = (propertyName, value) => () => ({
   [propertyName]: value,
 });
 
-const INITIAL_STATE = {
-  email: '',
-  password: '',
-  error: null,
-};
-
 class SignInForm extends Component {
   constructor(props) {
     super(props);
 
-    this.state = { ...INITIAL_STATE };
+    this.state = { 
+      email: '',
+      password: '',
+      error: null
+     };
   }
 
   onSubmit = (event) => {
@@ -40,7 +38,7 @@ class SignInForm extends Component {
 
     auth.doSignInWithEmailAndPassword(email, password)
       .then(() => {
-        this.setState({ ...INITIAL_STATE });
+        this.setState({ ...this.state });
         history.push(routes.HOME);
       })
       .catch(error => {
@@ -62,20 +60,28 @@ class SignInForm extends Component {
       email === '';
 
     return (
-      <form onSubmit={this.onSubmit}>
+      <form 
+        onSubmit={this.onSubmit}
+        className="sign-in-form">
         <input
+          className="sign-in-input"
           value={email}
           onChange={event => this.setState(byPropKey('email', event.target.value))}
           type="text"
           placeholder="Email Address"
+          label="Email"
         />
         <input
+          className="sign-in-input"
           value={password}
           onChange={event => this.setState(byPropKey('password', event.target.value))}
           type="password"
           placeholder="Password"
         />
-        <button disabled={isInvalid} type="submit">
+        <button 
+          disabled={isInvalid} 
+          type="submit"
+          className="sign-in-btn">
           Sign In
         </button>
 

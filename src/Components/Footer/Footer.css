@@ -1,0 +1,18 @@
+.admin-login {
+  color: #fff;
+  float: right;
+  display: inline-block;
+  height: auto;
+}
+
+footer {
+  padding: 10px 20px 10px;
+  background: linear-gradient(#4DAAF5, #276AB8);
+  width: 100vw;
+  position: fixed;
+  bottom: 0px;
+}
+
+.footer-address {
+  color: #fff;
+}
