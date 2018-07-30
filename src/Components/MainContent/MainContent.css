@@ -1,0 +1,6 @@
+.individual-content-container {
+  padding: 25px 40px;
+  flex-direction: column;
+  display: flex;
+  width: 70%;
+}
