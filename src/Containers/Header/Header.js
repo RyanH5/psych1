@@ -73,19 +73,7 @@ const Header = () => {
             className="nav drop-btn">
             Contact
           </NavLink></li>
-          <li><NavLink 
-            to="/signin"
-            className="nav drop-btn">
-            Admin
-          </NavLink></li>
-          <li><NavLink 
-            to="/signup"
-            className="nav drop-btn">
-            Signup
-          </NavLink></li>
-        </ul>
-        
-      
+        </ul>     
       </header>
   )
 }

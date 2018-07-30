@@ -1,0 +1,291 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer should match snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div>
+          <span
+                    className="footer-address"
+          >
+                    8009 34th Ave S STE 1490
+          </span>
+          <span
+                    className="footer-address"
+          >
+                    Bloomington, MN 55425
+          </span>
+          <span
+                    className="footer-address"
+          >
+                    <strong>
+                              612-766-9255
+                    </strong>
+          </span>
+</div>,
+        <NavLink
+          activeClassName="active"
+          aria-current="page"
+          className="nav drop-btn admin-login"
+          to="/signin"
+>
+          Admin
+</NavLink>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <span
+              className="footer-address"
+>
+              8009 34th Ave S STE 1490
+</span>,
+            <span
+              className="footer-address"
+>
+              Bloomington, MN 55425
+</span>,
+            <span
+              className="footer-address"
+>
+              <strong>
+                            612-766-9255
+              </strong>
+</span>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "8009 34th Ave S STE 1490",
+              "className": "footer-address",
+            },
+            "ref": null,
+            "rendered": "8009 34th Ave S STE 1490",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Bloomington, MN 55425",
+              "className": "footer-address",
+            },
+            "ref": null,
+            "rendered": "Bloomington, MN 55425",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <strong>
+                612-766-9255
+</strong>,
+              "className": "footer-address",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "612-766-9255",
+              },
+              "ref": null,
+              "rendered": "612-766-9255",
+              "type": "strong",
+            },
+            "type": "span",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "activeClassName": "active",
+          "aria-current": "page",
+          "children": "Admin",
+          "className": "nav drop-btn admin-login",
+          "to": "/signin",
+        },
+        "ref": null,
+        "rendered": "Admin",
+        "type": [Function],
+      },
+    ],
+    "type": "footer",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div>
+            <span
+                        className="footer-address"
+            >
+                        8009 34th Ave S STE 1490
+            </span>
+            <span
+                        className="footer-address"
+            >
+                        Bloomington, MN 55425
+            </span>
+            <span
+                        className="footer-address"
+            >
+                        <strong>
+                                    612-766-9255
+                        </strong>
+            </span>
+</div>,
+          <NavLink
+            activeClassName="active"
+            aria-current="page"
+            className="nav drop-btn admin-login"
+            to="/signin"
+>
+            Admin
+</NavLink>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <span
+                className="footer-address"
+>
+                8009 34th Ave S STE 1490
+</span>,
+              <span
+                className="footer-address"
+>
+                Bloomington, MN 55425
+</span>,
+              <span
+                className="footer-address"
+>
+                <strong>
+                                612-766-9255
+                </strong>
+</span>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "8009 34th Ave S STE 1490",
+                "className": "footer-address",
+              },
+              "ref": null,
+              "rendered": "8009 34th Ave S STE 1490",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Bloomington, MN 55425",
+                "className": "footer-address",
+              },
+              "ref": null,
+              "rendered": "Bloomington, MN 55425",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <strong>
+                  612-766-9255
+</strong>,
+                "className": "footer-address",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "612-766-9255",
+                },
+                "ref": null,
+                "rendered": "612-766-9255",
+                "type": "strong",
+              },
+              "type": "span",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "activeClassName": "active",
+            "aria-current": "page",
+            "children": "Admin",
+            "className": "nav drop-btn admin-login",
+            "to": "/signin",
+          },
+          "ref": null,
+          "rendered": "Admin",
+          "type": [Function],
+        },
+      ],
+      "type": "footer",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
