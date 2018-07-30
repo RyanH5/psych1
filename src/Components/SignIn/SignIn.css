@@ -1,0 +1,37 @@
+.form-container {
+  background: #2463B3;
+  width: 400px;
+  margin: 150px auto;
+}
+
+.sign-in-title {
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+}
+
+.sign-in-form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+  padding: 30px;
+}
+
+.sign-in-input {
+  margin-bottom: 10px;
+  padding: 3px;
+  font-size: 16px;
+}
+
+.sign-in-btn {
+  margin-bottom: 10px;
+  font-size: 16px;
+  padding: 3px;
+  background-color: #fff;
+  columns: #2463B3;
+}
+
+.sign-in-btn:hover {
+  cursor: pointer; 
+}
