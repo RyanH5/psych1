@@ -1,0 +1,589 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Family should match snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h1>
+          Family Coaching
+</h1>,
+        <p>
+          One of the most important skills we want our children to develop is how to navigate the daily challenges and stressors of life. Often times we know what skills our children need to develop but we can feel stuck in how to help them develop these skills. Sometimes families can get off track and develop patterns of interacting that can cause a significant amount of stress, anger, and disruption in the home. Family coaching can be a resource to families to get unstuck and to “get back on track” in interacting in a healthy and positive way. Family coaching can be helpful in developing skills in knowing when to intervene and when to let your child “figure it out on her own”. Families can benefit from developing plans that shift more responsibility from the parents to the children which helps them develop life skills so they can continue to flourish and enjoy successes in their life.
+</p>,
+        <p>
+          Family coaching starts with an initial meeting with the parent(s) where background information is obtained about family, school, work and friends. The second meeting usually involves family members where additional information is obtained and each member participates in developing goals they have individually and as a family. I provide support and feedback to the family on their strengths and also where they may be getting stuck. An individualized plan is then developed and agreed upon to help families get unstuck and continue to develop skills so they can function well and enjoy each other. The plans are skill based and very practical. After the initial two meetings ongoing coaching can take place in my office, by phone or Skype.
+</p>,
+        <p>
+          Family coaching is not therapy. If I feel therapy is needed I will make that recommendation. It is not covered by insurance.
+</p>,
+        <p>
+          If you are interested in family coaching please call or email me.
+</p>,
+        <h2>
+          Core Topics:
+</h2>,
+        <ul>
+          <li>
+                    Building a resilient family
+          </li>
+          <li>
+                    How to develop healthy nutrition, exercise and sleep routines.
+          </li>
+          <li>
+                    Helping parents “Be on the same page” in parenting
+          </li>
+          <li>
+                    Develop skills for family members to manage emotions effectively.
+          </li>
+          <li>
+                    Strengthening family relationships by developing strategies to resolve conflicts in a healthy manner
+          </li>
+          <li>
+                    Strategies to help increase each family members confidence, motivation and performance.
+          </li>
+          <li>
+                    Develop a routine for chores, homework, sleep, screen time, family fun
+          </li>
+          <li>
+                    Helping with transitions like a move, change in job, death of a family member, divorce, blended family issues
+          </li>
+          <li>
+                    Helping address school issues
+          </li>
+          <li>
+                    Helping young adults “get launched”
+          </li>
+</ul>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Family Coaching",
+        },
+        "ref": null,
+        "rendered": "Family Coaching",
+        "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "One of the most important skills we want our children to develop is how to navigate the daily challenges and stressors of life. Often times we know what skills our children need to develop but we can feel stuck in how to help them develop these skills. Sometimes families can get off track and develop patterns of interacting that can cause a significant amount of stress, anger, and disruption in the home. Family coaching can be a resource to families to get unstuck and to “get back on track” in interacting in a healthy and positive way. Family coaching can be helpful in developing skills in knowing when to intervene and when to let your child “figure it out on her own”. Families can benefit from developing plans that shift more responsibility from the parents to the children which helps them develop life skills so they can continue to flourish and enjoy successes in their life.",
+        },
+        "ref": null,
+        "rendered": "One of the most important skills we want our children to develop is how to navigate the daily challenges and stressors of life. Often times we know what skills our children need to develop but we can feel stuck in how to help them develop these skills. Sometimes families can get off track and develop patterns of interacting that can cause a significant amount of stress, anger, and disruption in the home. Family coaching can be a resource to families to get unstuck and to “get back on track” in interacting in a healthy and positive way. Family coaching can be helpful in developing skills in knowing when to intervene and when to let your child “figure it out on her own”. Families can benefit from developing plans that shift more responsibility from the parents to the children which helps them develop life skills so they can continue to flourish and enjoy successes in their life.",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Family coaching starts with an initial meeting with the parent(s) where background information is obtained about family, school, work and friends. The second meeting usually involves family members where additional information is obtained and each member participates in developing goals they have individually and as a family. I provide support and feedback to the family on their strengths and also where they may be getting stuck. An individualized plan is then developed and agreed upon to help families get unstuck and continue to develop skills so they can function well and enjoy each other. The plans are skill based and very practical. After the initial two meetings ongoing coaching can take place in my office, by phone or Skype.",
+        },
+        "ref": null,
+        "rendered": "Family coaching starts with an initial meeting with the parent(s) where background information is obtained about family, school, work and friends. The second meeting usually involves family members where additional information is obtained and each member participates in developing goals they have individually and as a family. I provide support and feedback to the family on their strengths and also where they may be getting stuck. An individualized plan is then developed and agreed upon to help families get unstuck and continue to develop skills so they can function well and enjoy each other. The plans are skill based and very practical. After the initial two meetings ongoing coaching can take place in my office, by phone or Skype.",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Family coaching is not therapy. If I feel therapy is needed I will make that recommendation. It is not covered by insurance.",
+        },
+        "ref": null,
+        "rendered": "Family coaching is not therapy. If I feel therapy is needed I will make that recommendation. It is not covered by insurance.",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "If you are interested in family coaching please call or email me.",
+        },
+        "ref": null,
+        "rendered": "If you are interested in family coaching please call or email me.",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Core Topics:",
+        },
+        "ref": null,
+        "rendered": "Core Topics:",
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <li>
+              Building a resilient family
+</li>,
+            <li>
+              How to develop healthy nutrition, exercise and sleep routines.
+</li>,
+            <li>
+              Helping parents “Be on the same page” in parenting
+</li>,
+            <li>
+              Develop skills for family members to manage emotions effectively.
+</li>,
+            <li>
+              Strengthening family relationships by developing strategies to resolve conflicts in a healthy manner
+</li>,
+            <li>
+              Strategies to help increase each family members confidence, motivation and performance.
+</li>,
+            <li>
+              Develop a routine for chores, homework, sleep, screen time, family fun
+</li>,
+            <li>
+              Helping with transitions like a move, change in job, death of a family member, divorce, blended family issues
+</li>,
+            <li>
+              Helping address school issues
+</li>,
+            <li>
+              Helping young adults “get launched”
+</li>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Building a resilient family",
+            },
+            "ref": null,
+            "rendered": "Building a resilient family",
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "How to develop healthy nutrition, exercise and sleep routines.",
+            },
+            "ref": null,
+            "rendered": "How to develop healthy nutrition, exercise and sleep routines.",
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Helping parents “Be on the same page” in parenting",
+            },
+            "ref": null,
+            "rendered": "Helping parents “Be on the same page” in parenting",
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Develop skills for family members to manage emotions effectively.",
+            },
+            "ref": null,
+            "rendered": "Develop skills for family members to manage emotions effectively.",
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Strengthening family relationships by developing strategies to resolve conflicts in a healthy manner",
+            },
+            "ref": null,
+            "rendered": "Strengthening family relationships by developing strategies to resolve conflicts in a healthy manner",
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Strategies to help increase each family members confidence, motivation and performance.",
+            },
+            "ref": null,
+            "rendered": "Strategies to help increase each family members confidence, motivation and performance.",
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Develop a routine for chores, homework, sleep, screen time, family fun",
+            },
+            "ref": null,
+            "rendered": "Develop a routine for chores, homework, sleep, screen time, family fun",
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Helping with transitions like a move, change in job, death of a family member, divorce, blended family issues",
+            },
+            "ref": null,
+            "rendered": "Helping with transitions like a move, change in job, death of a family member, divorce, blended family issues",
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Helping address school issues",
+            },
+            "ref": null,
+            "rendered": "Helping address school issues",
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Helping young adults “get launched”",
+            },
+            "ref": null,
+            "rendered": "Helping young adults “get launched”",
+            "type": "li",
+          },
+        ],
+        "type": "ul",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h1>
+            Family Coaching
+</h1>,
+          <p>
+            One of the most important skills we want our children to develop is how to navigate the daily challenges and stressors of life. Often times we know what skills our children need to develop but we can feel stuck in how to help them develop these skills. Sometimes families can get off track and develop patterns of interacting that can cause a significant amount of stress, anger, and disruption in the home. Family coaching can be a resource to families to get unstuck and to “get back on track” in interacting in a healthy and positive way. Family coaching can be helpful in developing skills in knowing when to intervene and when to let your child “figure it out on her own”. Families can benefit from developing plans that shift more responsibility from the parents to the children which helps them develop life skills so they can continue to flourish and enjoy successes in their life.
+</p>,
+          <p>
+            Family coaching starts with an initial meeting with the parent(s) where background information is obtained about family, school, work and friends. The second meeting usually involves family members where additional information is obtained and each member participates in developing goals they have individually and as a family. I provide support and feedback to the family on their strengths and also where they may be getting stuck. An individualized plan is then developed and agreed upon to help families get unstuck and continue to develop skills so they can function well and enjoy each other. The plans are skill based and very practical. After the initial two meetings ongoing coaching can take place in my office, by phone or Skype.
+</p>,
+          <p>
+            Family coaching is not therapy. If I feel therapy is needed I will make that recommendation. It is not covered by insurance.
+</p>,
+          <p>
+            If you are interested in family coaching please call or email me.
+</p>,
+          <h2>
+            Core Topics:
+</h2>,
+          <ul>
+            <li>
+                        Building a resilient family
+            </li>
+            <li>
+                        How to develop healthy nutrition, exercise and sleep routines.
+            </li>
+            <li>
+                        Helping parents “Be on the same page” in parenting
+            </li>
+            <li>
+                        Develop skills for family members to manage emotions effectively.
+            </li>
+            <li>
+                        Strengthening family relationships by developing strategies to resolve conflicts in a healthy manner
+            </li>
+            <li>
+                        Strategies to help increase each family members confidence, motivation and performance.
+            </li>
+            <li>
+                        Develop a routine for chores, homework, sleep, screen time, family fun
+            </li>
+            <li>
+                        Helping with transitions like a move, change in job, death of a family member, divorce, blended family issues
+            </li>
+            <li>
+                        Helping address school issues
+            </li>
+            <li>
+                        Helping young adults “get launched”
+            </li>
+</ul>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Family Coaching",
+          },
+          "ref": null,
+          "rendered": "Family Coaching",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "One of the most important skills we want our children to develop is how to navigate the daily challenges and stressors of life. Often times we know what skills our children need to develop but we can feel stuck in how to help them develop these skills. Sometimes families can get off track and develop patterns of interacting that can cause a significant amount of stress, anger, and disruption in the home. Family coaching can be a resource to families to get unstuck and to “get back on track” in interacting in a healthy and positive way. Family coaching can be helpful in developing skills in knowing when to intervene and when to let your child “figure it out on her own”. Families can benefit from developing plans that shift more responsibility from the parents to the children which helps them develop life skills so they can continue to flourish and enjoy successes in their life.",
+          },
+          "ref": null,
+          "rendered": "One of the most important skills we want our children to develop is how to navigate the daily challenges and stressors of life. Often times we know what skills our children need to develop but we can feel stuck in how to help them develop these skills. Sometimes families can get off track and develop patterns of interacting that can cause a significant amount of stress, anger, and disruption in the home. Family coaching can be a resource to families to get unstuck and to “get back on track” in interacting in a healthy and positive way. Family coaching can be helpful in developing skills in knowing when to intervene and when to let your child “figure it out on her own”. Families can benefit from developing plans that shift more responsibility from the parents to the children which helps them develop life skills so they can continue to flourish and enjoy successes in their life.",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Family coaching starts with an initial meeting with the parent(s) where background information is obtained about family, school, work and friends. The second meeting usually involves family members where additional information is obtained and each member participates in developing goals they have individually and as a family. I provide support and feedback to the family on their strengths and also where they may be getting stuck. An individualized plan is then developed and agreed upon to help families get unstuck and continue to develop skills so they can function well and enjoy each other. The plans are skill based and very practical. After the initial two meetings ongoing coaching can take place in my office, by phone or Skype.",
+          },
+          "ref": null,
+          "rendered": "Family coaching starts with an initial meeting with the parent(s) where background information is obtained about family, school, work and friends. The second meeting usually involves family members where additional information is obtained and each member participates in developing goals they have individually and as a family. I provide support and feedback to the family on their strengths and also where they may be getting stuck. An individualized plan is then developed and agreed upon to help families get unstuck and continue to develop skills so they can function well and enjoy each other. The plans are skill based and very practical. After the initial two meetings ongoing coaching can take place in my office, by phone or Skype.",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Family coaching is not therapy. If I feel therapy is needed I will make that recommendation. It is not covered by insurance.",
+          },
+          "ref": null,
+          "rendered": "Family coaching is not therapy. If I feel therapy is needed I will make that recommendation. It is not covered by insurance.",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "If you are interested in family coaching please call or email me.",
+          },
+          "ref": null,
+          "rendered": "If you are interested in family coaching please call or email me.",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Core Topics:",
+          },
+          "ref": null,
+          "rendered": "Core Topics:",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <li>
+                Building a resilient family
+</li>,
+              <li>
+                How to develop healthy nutrition, exercise and sleep routines.
+</li>,
+              <li>
+                Helping parents “Be on the same page” in parenting
+</li>,
+              <li>
+                Develop skills for family members to manage emotions effectively.
+</li>,
+              <li>
+                Strengthening family relationships by developing strategies to resolve conflicts in a healthy manner
+</li>,
+              <li>
+                Strategies to help increase each family members confidence, motivation and performance.
+</li>,
+              <li>
+                Develop a routine for chores, homework, sleep, screen time, family fun
+</li>,
+              <li>
+                Helping with transitions like a move, change in job, death of a family member, divorce, blended family issues
+</li>,
+              <li>
+                Helping address school issues
+</li>,
+              <li>
+                Helping young adults “get launched”
+</li>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Building a resilient family",
+              },
+              "ref": null,
+              "rendered": "Building a resilient family",
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "How to develop healthy nutrition, exercise and sleep routines.",
+              },
+              "ref": null,
+              "rendered": "How to develop healthy nutrition, exercise and sleep routines.",
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Helping parents “Be on the same page” in parenting",
+              },
+              "ref": null,
+              "rendered": "Helping parents “Be on the same page” in parenting",
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Develop skills for family members to manage emotions effectively.",
+              },
+              "ref": null,
+              "rendered": "Develop skills for family members to manage emotions effectively.",
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Strengthening family relationships by developing strategies to resolve conflicts in a healthy manner",
+              },
+              "ref": null,
+              "rendered": "Strengthening family relationships by developing strategies to resolve conflicts in a healthy manner",
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Strategies to help increase each family members confidence, motivation and performance.",
+              },
+              "ref": null,
+              "rendered": "Strategies to help increase each family members confidence, motivation and performance.",
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Develop a routine for chores, homework, sleep, screen time, family fun",
+              },
+              "ref": null,
+              "rendered": "Develop a routine for chores, homework, sleep, screen time, family fun",
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Helping with transitions like a move, change in job, death of a family member, divorce, blended family issues",
+              },
+              "ref": null,
+              "rendered": "Helping with transitions like a move, change in job, death of a family member, divorce, blended family issues",
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Helping address school issues",
+              },
+              "ref": null,
+              "rendered": "Helping address school issues",
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Helping young adults “get launched”",
+              },
+              "ref": null,
+              "rendered": "Helping young adults “get launched”",
+              "type": "li",
+            },
+          ],
+          "type": "ul",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
