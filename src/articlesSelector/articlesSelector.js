@@ -1,7 +1,8 @@
 export const articlesSelector = (pathname) => {
+  let searchKeyWord;
   switch(pathname) {
     case '/':
-      let searchKeyWord = 'psychology'
+      searchKeyWord = 'psychology'
       return searchKeyWord;
     
     case '/resilience':

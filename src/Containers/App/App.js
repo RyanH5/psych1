@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './App.css';
 import Header from '../Header/Header';
 import DisplayPage from '../DisplayPage/DisplayPage';
 import { Main } from '../Main/Main';
