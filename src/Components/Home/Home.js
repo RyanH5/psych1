@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { compose } from 'recompose';
 
-import withAuthorization from './withAuthorization';
-import { db } from '../firebase';
+import withAuthorization from '../withAuthorization/withAuthorization';
+import { db } from '../../firebase/firebase';
 
 class HomePage extends Component {
   componentDidMount() {
@@ -27,6 +27,16 @@ class HomePage extends Component {
     );
   }
 }
+
+const UserList = ({ users }) =>
+  <div>
+    <h2>List of Usernames of Users</h2>
+    <p>(Saved on Sign Up in Firebase Database)</p>
+
+    {Object.keys(users).map(key =>
+      <div key={key}>{users[key].username}</div>
+    )}
+  </div>
 
 const mapStateToProps = (state) => ({
   users: state.userState.users,

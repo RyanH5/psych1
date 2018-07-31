@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-
+import { Link, withRouter } from 'react-router-dom';
+import { auth, db } from '../../firebase';
 import * as routes from '../../constants/routes';
 
 const SignUpPage = () =>
@@ -28,9 +28,36 @@ const SignUpPage = () =>
       this.state = { ...INITIAL_STATE };
     }
 
-  onSubmit = (event) => {
-
-  }
+    onSubmit = (event) => {
+      const {
+        username,
+        email,
+        passwordOne,
+      } = this.state;
+  
+      const {
+        history,
+      } = this.props;
+  
+      auth.doCreateUserWithEmailAndPassword(email, passwordOne)
+        .then(authUser => {
+  
+          db.doCreateUser(authUser.user.uid, username, email)
+            .then(() => {
+              this.setState({ ...INITIAL_STATE });
+              history.push(routes.HOME);
+            })
+            .catch(error => {
+              this.setState(byPropKey('error', error));
+            });
+  
+        })
+        .catch(error => {
+          this.setState(byPropKey('error', error));
+        });
+  
+      event.preventDefault();
+    }
 
   render() {
     const {
@@ -84,7 +111,7 @@ const SignUpLink = () =>
     <Link to={routes.SIGN_UP}>Sign Up</Link>
   </p>
 
-export default SignUpPage;
+export default withRouter(SignUpPage);
 
 export {
   SignUpForm,

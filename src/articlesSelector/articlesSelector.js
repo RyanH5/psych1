@@ -1,5 +1,5 @@
 export const articlesSelector = (pathname) => {
-  let searchKeyWord;
+  let searchKeyWord = null;
   switch(pathname) {
     case '/':
       searchKeyWord = 'psychology'
@@ -24,5 +24,12 @@ export const articlesSelector = (pathname) => {
       case '/family':
       searchKeyWord = 'parenting'
       return searchKeyWord;
+
+      case '/contact':
+      searchKeyWord = 'uplifting'
+      return searchKeyWord;
+
+      default:
+        return searchKeyWord;
   }
 }
