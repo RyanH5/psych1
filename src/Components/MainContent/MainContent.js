@@ -10,6 +10,7 @@ import { Psychotherapy } from '../Psychotherapy/Psychotherapy';
 import { Contact } from '../Contact/Contact';
 import { Family } from '../Family/Family';
 import './MainContent.css'
+import HomePage from '../Home/Home';
 
 const MainContent = () => {
   return (
@@ -50,18 +51,12 @@ const MainContent = () => {
     exact path="/contact"
     component={Contact}
   />
+  <Route
+    exact path="/home"
+    component={HomePage}
+  />
     </div>
   )
 }
 
 export default MainContent;
-
-
-// <Route
-// exact path="/speaking"
-// component={DisplayPage}
-// />
-// <Route
-// exact path="/family"
-// component={DisplayPage}
-// />

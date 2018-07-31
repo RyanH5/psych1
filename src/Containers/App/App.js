@@ -22,7 +22,6 @@ const App = () =>
         <Header />
         <Main />
         <Footer />  
-      <Route exact path={routes.HOME} component={() => <HomePage />} />
     </div>
 
 export default App;
