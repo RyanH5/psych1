@@ -9,7 +9,6 @@ describe('actions', () => {
         articles: [{author: 'Jeff', title: 'News'}]
       }
       const result = actions.addArticles(articles);
-    })
-
-  })
-})
+    });
+  });
+});
