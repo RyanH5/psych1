@@ -1,5 +1,7 @@
 import React from 'react';
 import './styles.css';
+import { config, db, app } from '../../firebase/firebase';
+import firebase from 'firebase';
 
 
 const PsychHome = () => {
@@ -14,7 +16,6 @@ const PsychHome = () => {
             <h4>May 4 - May 5, 2018</h4>
             <span>Friday 7:00pm - 9:00pm</span>
             <span>Saturday 2:00 - 7:00pm</span>
-            <span>Price $50</span>
             <span>Family Conference</span>
             <span>Culver City, California</span>
           </div>
@@ -37,7 +38,6 @@ const PsychHome = () => {
               Minnesota Association for Childrens Mental Health
             </a>
           </div>
-
         </div>
       </div>
     </div>

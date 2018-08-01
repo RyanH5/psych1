@@ -35,11 +35,12 @@
       "!src/Reducers/index.js",
       "!src/firebase/index.js",
       "!src/base.js",
-      "!src/Components/SignUp/SignUp.js",
+      "!src/Components/SignIn/SignIn.js",
       "!src/constants/routes.js",
       "!src/Components/WithAuthentication/WithAuthentication.js",
-      "!src/Components/WithAuthorization/WithAuthorization.js",
-      "!src/Components/AuthUserContext/AuthUserContext.js"
+      "!src/Components/withAuthorization/withAuthorization.js",
+      "!src/Components/AuthUserContext/AuthUserContext.js",
+      "!src/Components/Home/Home.js"
     ]
   }
 }
