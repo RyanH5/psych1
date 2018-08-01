@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { compose } from 'recompose';
 import withAuthorization from '../withAuthorization/withAuthorization';
-import { db } from '../../firebase/firebase';
+import { db } from '../../firebase';
 
 class HomePage extends Component {
   componentDidMount() {
@@ -16,41 +16,7 @@ class HomePage extends Component {
     const { users } = this.props;
     return (
       <div>
-        <h1>Home</h1>
-        <p>The Home Page is accessible by every signed in user.</p>
-        <p>The Home Page is accessible by every signed in user.</p>
-        <p>The Home Page is accessible by every signed in user.</p>
-        <p>The Home Page is accessible by every signed in user.</p>
-        <p>The Home Page is accessible by every signed in user.</p>
-        <p>The Home Page is accessible by every signed in user.</p>
-        <p>The Home Page is accessible by every signed in user.</p>
-        <p>The Home Page is accessible by every signed in user.</p>
-        <p>The Home Page is accessible by every signed in user.</p>
-        <p>The Home Page is accessible by every signed in user.</p>
-        <p>The Home Page is accessible by every signed in user.</p>
-        <p>The Home Page is accessible by every signed in user.</p>
-        <p>The Home Page is accessible by every signed in user.</p>
-        <p>The Home Page is accessible by every signed in user.</p>
-        <p>The Home Page is accessible by every signed in user.</p>
-        <p>The Home Page is accessible by every signed in user.</p>
-        <p>The Home Page is accessible by every signed in user.</p>
-        <p>The Home Page is accessible by every signed in user.</p>
-        <p>The Home Page is accessible by every signed in user.</p>
-        <p>The Home Page is accessible by every signed in user.</p>
-        <p>The Home Page is accessible by every signed in user.</p>
-
-        <p>The Home Page is accessible by every signed in user.</p>
-        <p>The Home Page is accessible by every signed in user.</p>
-        <p>The Home Page is accessible by every signed in user.</p>
-        <p>The Home Page is accessible by every signed in user.</p>
-        <p>The Home Page is accessible by every signed in user.</p>
-        <p>The Home Page is accessible by every signed in user.</p>
-        <p>The Home Page is accessible by every signed in user.</p>
-        <p>The Home Page is accessible by every signed in user.</p>
-        <p>The Home Page is accessible by every signed in user.</p>
-
-
-        { !!users && <UserList users={users} /> }
+        <h2>Welcome{ !!users && <UserList users={users} /> }</h2>
       </div>
     );
   }
@@ -58,9 +24,6 @@ class HomePage extends Component {
 
 const UserList = ({ users }) =>
   <div>
-    <h2>List of Usernames of Users</h2>
-    <p>(Saved on Sign Up in Firebase Database)</p>
-
     {Object.keys(users).map(key =>
       <div key={key}>{users[key].username}</div>
     )}
@@ -76,7 +39,9 @@ const mapDispatchToProps = (dispatch) => ({
 
 const authCondition = (authUser) => !!authUser;
 
-export default compose(
-  withAuthorization(authCondition),
-  connect(mapStateToProps, mapDispatchToProps)
-)(HomePage);
+// export default compose(
+//   withAuthorization(authCondition),
+//   connect(mapStateToProps, mapDispatchToProps)
+// )(HomePage);
+
+export default connect(mapStateToProps, mapDispatchToProps)(HomePage);

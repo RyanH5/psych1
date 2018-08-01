@@ -49,6 +49,10 @@ export const Main = () => {
         exact path="/home"
         component={DisplayPage}
       />
+      <Route
+        exact path="/account"
+        component={DisplayPage}
+      />
     </div>
   )
 }

@@ -26,10 +26,10 @@ export const articlesSelector = (pathname) => {
       return searchKeyWord;
 
       case '/contact':
-      searchKeyWord = 'uplifting'
+      searchKeyWord = 'psychology'
       return searchKeyWord;
 
       default:
-        return searchKeyWord;
+        return 'psychology';
   }
 }

@@ -11,6 +11,7 @@ import { Contact } from '../Contact/Contact';
 import { Family } from '../Family/Family';
 import './MainContent.css'
 import HomePage from '../Home/Home';
+import AccountPage from '../Account/Account'
 
 const MainContent = () => {
   return (
@@ -55,6 +56,10 @@ const MainContent = () => {
     exact path="/home"
     component={HomePage}
   />
+  <Route
+    exact path='/account'
+    component={AccountPage}
+      />
     </div>
   )
 }
