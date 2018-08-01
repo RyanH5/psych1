@@ -2,7 +2,7 @@ import firebase from 'firebase/app';
 import 'firebase/auth';
 import 'firebase/database';
 
-var config = {
+export const config = {
   apiKey: "AIzaSyAaWWdDg371Q0nEp5rDwpMHkYf-PoLtsjs",
   authDomain: "kevinsadmin.firebaseapp.com",
   databaseURL: "https://kevinsadmin.firebaseio.com",

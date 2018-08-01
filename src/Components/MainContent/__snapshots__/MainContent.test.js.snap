@@ -63,6 +63,16 @@ ShallowWrapper {
           exact={true}
           path="/contact"
 />,
+        <Route
+          component={[Function]}
+          exact={true}
+          path="/home"
+/>,
+        <Route
+          component={[Function]}
+          exact={true}
+          path="/account"
+/>,
       ],
       "className": "individual-content-container",
     },
@@ -185,6 +195,32 @@ ShallowWrapper {
         "rendered": null,
         "type": [Function],
       },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "component": [Function],
+          "exact": true,
+          "path": "/home",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "component": [Function],
+          "exact": true,
+          "path": "/account",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
     ],
     "type": "div",
   },
@@ -239,6 +275,16 @@ ShallowWrapper {
             component={[Function]}
             exact={true}
             path="/contact"
+/>,
+          <Route
+            component={[Function]}
+            exact={true}
+            path="/home"
+/>,
+          <Route
+            component={[Function]}
+            exact={true}
+            path="/account"
 />,
         ],
         "className": "individual-content-container",
@@ -357,6 +403,32 @@ ShallowWrapper {
             "component": [Function],
             "exact": true,
             "path": "/contact",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "component": [Function],
+            "exact": true,
+            "path": "/home",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "component": [Function],
+            "exact": true,
+            "path": "/account",
           },
           "ref": null,
           "rendered": null,

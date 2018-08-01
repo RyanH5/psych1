@@ -8,6 +8,7 @@ import { articlesSelector } from '../../articlesSelector/articlesSelector';
 import MainContent from '../../Components/MainContent/MainContent';
 
 
+
 export class DisplayPage extends Component {
 
   async componentDidMount() {
@@ -20,7 +21,7 @@ export class DisplayPage extends Component {
   render() {
     return (
       <main>
-        <MainContent />       
+        <MainContent />  
         <NewsArticles articles={this.props.articles}/>
       </main>
     )
