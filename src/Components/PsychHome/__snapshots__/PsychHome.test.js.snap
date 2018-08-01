@@ -51,9 +51,6 @@ ShallowWrapper {
                                 Saturday 2:00 - 7:00pm
                         </span>
                         <span>
-                                Price $50
-                        </span>
-                        <span>
                                 Family Conference
                         </span>
                         <span>
@@ -140,9 +137,6 @@ ShallowWrapper {
                         </span>
                         <span>
                                     Saturday 2:00 - 7:00pm
-                        </span>
-                        <span>
-                                    Price $50
                         </span>
                         <span>
                                     Family Conference
@@ -254,9 +248,6 @@ ShallowWrapper {
                                 Saturday 2:00 - 7:00pm
                 </span>
                 <span>
-                                Price $50
-                </span>
-                <span>
                                 Family Conference
                 </span>
                 <span>
@@ -330,9 +321,6 @@ ShallowWrapper {
                     Saturday 2:00 - 7:00pm
 </span>,
                   <span>
-                    Price $50
-</span>,
-                  <span>
                     Family Conference
 </span>,
                   <span>
@@ -396,17 +384,6 @@ ShallowWrapper {
                   },
                   "ref": null,
                   "rendered": "Saturday 2:00 - 7:00pm",
-                  "type": "span",
-                },
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": "Price $50",
-                  },
-                  "ref": null,
-                  "rendered": "Price $50",
                   "type": "span",
                 },
                 Object {
@@ -655,9 +632,6 @@ ShallowWrapper {
                                         Saturday 2:00 - 7:00pm
                               </span>
                               <span>
-                                        Price $50
-                              </span>
-                              <span>
                                         Family Conference
                               </span>
                               <span>
@@ -744,9 +718,6 @@ ShallowWrapper {
                             </span>
                             <span>
                                           Saturday 2:00 - 7:00pm
-                            </span>
-                            <span>
-                                          Price $50
                             </span>
                             <span>
                                           Family Conference
@@ -858,9 +829,6 @@ ShallowWrapper {
                                     Saturday 2:00 - 7:00pm
                   </span>
                   <span>
-                                    Price $50
-                  </span>
-                  <span>
                                     Family Conference
                   </span>
                   <span>
@@ -934,9 +902,6 @@ ShallowWrapper {
                       Saturday 2:00 - 7:00pm
 </span>,
                     <span>
-                      Price $50
-</span>,
-                    <span>
                       Family Conference
 </span>,
                     <span>
@@ -1000,17 +965,6 @@ ShallowWrapper {
                     },
                     "ref": null,
                     "rendered": "Saturday 2:00 - 7:00pm",
-                    "type": "span",
-                  },
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": "Price $50",
-                    },
-                    "ref": null,
-                    "rendered": "Price $50",
                     "type": "span",
                   },
                   Object {

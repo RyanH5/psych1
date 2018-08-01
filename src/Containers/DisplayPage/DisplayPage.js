@@ -6,6 +6,7 @@ import { addArticles } from '../../actions/actions';
 import { NewsArticles } from '../NewsArticles/NewsArticles';
 import { articlesSelector } from '../../articlesSelector/articlesSelector';
 import MainContent from '../../Components/MainContent/MainContent';
+import PropTypes from 'prop-types';
 
 
 
@@ -35,5 +36,11 @@ export const mapStateToProps = (state) => ({
 export const mapDispatchToProps = (dispatch) => ({
   addArticles: (articles) => dispatch(addArticles(articles))
 });
+
+DisplayPage.propTypes = {
+  articles: PropTypes.array,
+  addArticles: PropTypes.func
+}
+
 
 export default connect(mapStateToProps, mapDispatchToProps)(DisplayPage);

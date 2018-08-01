@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom';
 import './SignIn.css';
-// import { SignUpLink } from '../SignUp/SignUp';
 import { auth } from '../../firebase';
 import * as routes from '../../constants/routes';
+import PropTypes from 'prop-types';
 
 const SignInPage = ({ history }) =>
   <div className="form-container">
@@ -92,6 +92,10 @@ class SignInForm extends Component {
 }
 
 export default withRouter(SignInPage);
+
+SignInForm.propTypes = {
+  history: PropTypes.object
+}
 
 export {
   SignInForm,

@@ -7,29 +7,13 @@ import firebase from 'firebase';
 
 
 class App extends React.Component {
-  constructor(props) {
-    super(props);
-    this.database = app.database().ref().child('speed')
-    this.state = {
-      speed: 10
-    }
-  }
-
-  componentDidMount() {
-    this.database.on('value', snap => {
-      this.setState({
-        speed: snap.val()
-      })
-    })
-  }
-
 
   render() {
     return (
       <div>
-          <Header />
-          <Main />
-          <Footer />  
+        <Header />
+        <Main />
+        <Footer />  
       </div>
     )
   }
