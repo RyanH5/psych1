@@ -2,15 +2,14 @@ import Header from '../Header/Header';
 import { Main } from '../Main/Main';
 import { Footer } from '../../Components/Footer/Footer';
 import React, { Component } from 'react';
-import { config, db } from '../../firebase/firebase';
+import { config, db, app } from '../../firebase/firebase';
 import firebase from 'firebase';
 
 
 class App extends React.Component {
   constructor(props) {
     super(props);
-    // this.app = firebase.initializeApp(config);
-    this.database = db.ref().child('speed')
+    this.database = app.database().ref().child('speed')
     this.state = {
       speed: 10
     }
@@ -30,17 +29,6 @@ class App extends React.Component {
       <div>
           <Header />
           <Main />
-          <h1>HEY DUDE Speed of {this.state.speed}</h1>
-          <h1>HEY DUDE Speed of {this.state.speed}</h1>
-          <h1>HEY DUDE Speed of {this.state.speed}</h1>
-          <h1>HEY DUDE Speed of {this.state.speed}</h1>
-          <h1>HEY DUDE Speed of {this.state.speed}</h1>
-          <h1>HEY DUDE Speed of {this.state.speed}</h1>
-
-          <h1>HEY DUDE Speed of {this.state.speed}</h1>
-          <h1>HEY DUDE Speed of {this.state.speed}</h1><h1>HEY DUDE Speed of {this.state.speed}</h1>
-          <h1>HEY DUDE Speed of {this.state.speed}</h1>
-          
           <Footer />  
       </div>
     )

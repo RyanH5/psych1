@@ -83,3 +83,5 @@ yarn-error.log*
 
 ./apiKey.js
 apiKey.js
+./config.js
+config.js
