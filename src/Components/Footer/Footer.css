@@ -1,8 +1,8 @@
 .admin-login {
   color: #fff;
   float: right;
-  display: inline-block;
   height: auto;
+  margin-right: 30px;
 }
 
 footer {
@@ -15,4 +15,5 @@ footer {
 
 .footer-address {
   color: #fff;
+  display: block;
 }

@@ -23,105 +23,39 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": Array [
-        <a
-          className="article-link"
-          href={undefined}
-          target="_blank"
-/>,
-        <img
-          className="news-image"
-          src={undefined}
-/>,
-        <p />,
-        <h5
-          className="article-author"
-/>,
-        <h6
-          className="article-source"
+      "children": <div
+        className="article-container"
 >
-          jill
-</h6>,
-      ],
+        <span
+                className="link-text"
+        />
+        <img
+                className="news-image"
+                src={undefined}
+        />
+        <p />
+        <h5
+                className="article-author"
+        />
+        <h6
+                className="article-source"
+        >
+                jill
+        </h6>
+</div>,
       "className": "single-article",
+      "href": undefined,
+      "target": "_blank",
     },
     "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": undefined,
-          "className": "article-link",
-          "href": undefined,
-          "target": "_blank",
-        },
-        "ref": null,
-        "rendered": null,
-        "type": "a",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "className": "news-image",
-          "src": undefined,
-        },
-        "ref": null,
-        "rendered": null,
-        "type": "img",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": undefined,
-        },
-        "ref": null,
-        "rendered": null,
-        "type": "p",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": undefined,
-          "className": "article-author",
-        },
-        "ref": null,
-        "rendered": null,
-        "type": "h5",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": "jill",
-          "className": "article-source",
-        },
-        "ref": null,
-        "rendered": "jill",
-        "type": "h6",
-      },
-    ],
-    "type": "div",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
+    "rendered": Object {
       "instance": null,
       "key": undefined,
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <a
-            className="article-link"
-            href={undefined}
-            target="_blank"
+          <span
+            className="link-text"
 />,
           <img
             className="news-image"
@@ -137,7 +71,7 @@ ShallowWrapper {
             jill
 </h6>,
         ],
-        "className": "single-article",
+        "className": "article-container",
       },
       "ref": null,
       "rendered": Array [
@@ -147,13 +81,11 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": undefined,
-            "className": "article-link",
-            "href": undefined,
-            "target": "_blank",
+            "className": "link-text",
           },
           "ref": null,
           "rendered": null,
-          "type": "a",
+          "type": "span",
         },
         Object {
           "instance": null,
@@ -204,6 +136,130 @@ ShallowWrapper {
         },
       ],
       "type": "div",
+    },
+    "type": "a",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="article-container"
+>
+          <span
+                    className="link-text"
+          />
+          <img
+                    className="news-image"
+                    src={undefined}
+          />
+          <p />
+          <h5
+                    className="article-author"
+          />
+          <h6
+                    className="article-source"
+          >
+                    jill
+          </h6>
+</div>,
+        "className": "single-article",
+        "href": undefined,
+        "target": "_blank",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <span
+              className="link-text"
+/>,
+            <img
+              className="news-image"
+              src={undefined}
+/>,
+            <p />,
+            <h5
+              className="article-author"
+/>,
+            <h6
+              className="article-source"
+>
+              jill
+</h6>,
+          ],
+          "className": "article-container",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": undefined,
+              "className": "link-text",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "news-image",
+              "src": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": undefined,
+              "className": "article-author",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "h5",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "jill",
+              "className": "article-source",
+            },
+            "ref": null,
+            "rendered": "jill",
+            "type": "h6",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "a",
     },
   ],
   Symbol(enzyme.__options__): Object {

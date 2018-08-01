@@ -26,115 +26,57 @@ ShallowWrapper {
         <ul
           className="menu"
 >
-          <li>
+          <div
+                    className="dropdown"
+          >
                     <NavLink
                               activeClassName="active"
                               aria-current="page"
-                              className="nav drop-btn"
+                              className=" active"
                               to="/"
                     >
                               Home
                     </NavLink>
-          </li>
+          </div>
           <div
                     className="dropdown"
           >
-                    <li>
-                              <NavLink
-                                        activeClassName="active"
-                                        aria-current="page"
-                                        className="nav drop-btn"
-                                        to="/resilience"
-                              >
-                                        Resilience Training
-                              </NavLink>
-                    </li>
-                    <div
-                              className="dropdown-content"
+                    <NavLink
+                              activeClassName="active"
+                              aria-current="page"
+                              className="nav drop-btn"
+                              to="/resilience"
                     >
-                              <p>
-                                        Schools
-                              </p>
-                              <p>
-                                        Professionals
-                              </p>
-                              <p>
-                                        Teen Resilience Program
-                              </p>
-                              <p>
-                                        Families
-                              </p>
-                    </div>
+                              Resilience Training
+                    </NavLink>
           </div>
           <div
                     className="dropdown"
           >
-                    <li>
-                              <NavLink
-                                        activeClassName="active"
-                                        aria-current="page"
-                                        className="nav drop-btn"
-                                        to="/parenting"
-                              >
-                                        Parenting Seminars
-                              </NavLink>
-                    </li>
-          </div>
-          <div
-                    className="dropdown"
-          >
-                    <li>
-                              <NavLink
-                                        activeClassName="active"
-                                        aria-current="page"
-                                        className="nav drop-btn"
-                                        to="/psychotherapy"
-                              >
-                                        Psychotherapy
-                              </NavLink>
-                    </li>
-                    <div
-                              className="dropdown-content"
+                    <NavLink
+                              activeClassName="active"
+                              aria-current="page"
+                              className="nav drop-btn"
+                              to="/parenting"
                     >
-                              <p>
-                                        Family Therapy
-                              </p>
-                              <p>
-                                        Adult Therapy
-                              </p>
-                              <p>
-                                        Adolescent and Child Therapy
-                              </p>
-                    </div>
+                              Parenting Seminars
+                    </NavLink>
           </div>
           <div
                     className="dropdown"
           >
-                    <li>
-                              <NavLink
-                                        activeClassName="active"
-                                        aria-current="page"
-                                        className="nav drop-btn"
-                                        to="/speaking"
-                              >
-                                        Speaking and  Training
-                              </NavLink>
-                    </li>
-                    <div
-                              className="dropdown-content"
+                    <NavLink
+                              activeClassName="active"
+                              aria-current="page"
+                              className="nav drop-btn"
+                              to="/psychotherapy"
                     >
-                              <p>
-                                        Schools
-                              </p>
-                              <p>
-                                        Clinicians and Human Service Providers
-                              </p>
-                              <p>
-                                        Church Ministries and Youth Workers
-                              </p>
-                    </div>
+                              Psychotherapy
+                    </NavLink>
           </div>
-          <li>
+          <div
+                    className="dropdown"
+          >
                     <NavLink
                               activeClassName="active"
                               aria-current="page"
@@ -143,8 +85,10 @@ ShallowWrapper {
                     >
                               Family Coaching
                     </NavLink>
-          </li>
-          <li>
+          </div>
+          <div
+                    className="dropdown"
+          >
                     <NavLink
                               activeClassName="active"
                               aria-current="page"
@@ -153,9 +97,17 @@ ShallowWrapper {
                     >
                               Contact
                     </NavLink>
-          </li>
+          </div>
+          <a
+                    className="icon"
+                    onClick={[Function]}
+          >
+                    ☰
+          </a>
 </ul>,
       ],
+      "className": "topnav",
+      "id": "myTopnav",
     },
     "ref": null,
     "rendered": Array [
@@ -177,115 +129,57 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            <li>
+            <div
+              className="dropdown"
+>
               <NavLink
                             activeClassName="active"
                             aria-current="page"
-                            className="nav drop-btn"
+                            className=" active"
                             to="/"
               >
                             Home
               </NavLink>
-</li>,
+</div>,
             <div
               className="dropdown"
 >
-              <li>
-                            <NavLink
-                                          activeClassName="active"
-                                          aria-current="page"
-                                          className="nav drop-btn"
-                                          to="/resilience"
-                            >
-                                          Resilience Training
-                            </NavLink>
-              </li>
-              <div
-                            className="dropdown-content"
+              <NavLink
+                            activeClassName="active"
+                            aria-current="page"
+                            className="nav drop-btn"
+                            to="/resilience"
               >
-                            <p>
-                                          Schools
-                            </p>
-                            <p>
-                                          Professionals
-                            </p>
-                            <p>
-                                          Teen Resilience Program
-                            </p>
-                            <p>
-                                          Families
-                            </p>
-              </div>
+                            Resilience Training
+              </NavLink>
 </div>,
             <div
               className="dropdown"
 >
-              <li>
-                            <NavLink
-                                          activeClassName="active"
-                                          aria-current="page"
-                                          className="nav drop-btn"
-                                          to="/parenting"
-                            >
-                                          Parenting Seminars
-                            </NavLink>
-              </li>
-</div>,
-            <div
-              className="dropdown"
->
-              <li>
-                            <NavLink
-                                          activeClassName="active"
-                                          aria-current="page"
-                                          className="nav drop-btn"
-                                          to="/psychotherapy"
-                            >
-                                          Psychotherapy
-                            </NavLink>
-              </li>
-              <div
-                            className="dropdown-content"
+              <NavLink
+                            activeClassName="active"
+                            aria-current="page"
+                            className="nav drop-btn"
+                            to="/parenting"
               >
-                            <p>
-                                          Family Therapy
-                            </p>
-                            <p>
-                                          Adult Therapy
-                            </p>
-                            <p>
-                                          Adolescent and Child Therapy
-                            </p>
-              </div>
+                            Parenting Seminars
+              </NavLink>
 </div>,
             <div
               className="dropdown"
 >
-              <li>
-                            <NavLink
-                                          activeClassName="active"
-                                          aria-current="page"
-                                          className="nav drop-btn"
-                                          to="/speaking"
-                            >
-                                          Speaking and  Training
-                            </NavLink>
-              </li>
-              <div
-                            className="dropdown-content"
+              <NavLink
+                            activeClassName="active"
+                            aria-current="page"
+                            className="nav drop-btn"
+                            to="/psychotherapy"
               >
-                            <p>
-                                          Schools
-                            </p>
-                            <p>
-                                          Clinicians and Human Service Providers
-                            </p>
-                            <p>
-                                          Church Ministries and Youth Workers
-                            </p>
-              </div>
+                            Psychotherapy
+              </NavLink>
 </div>,
-            <li>
+            <div
+              className="dropdown"
+>
               <NavLink
                             activeClassName="active"
                             aria-current="page"
@@ -294,8 +188,10 @@ ShallowWrapper {
               >
                             Family Coaching
               </NavLink>
-</li>,
-            <li>
+</div>,
+            <div
+              className="dropdown"
+>
               <NavLink
                             activeClassName="active"
                             aria-current="page"
@@ -304,7 +200,13 @@ ShallowWrapper {
               >
                             Contact
               </NavLink>
-</li>,
+</div>,
+            <a
+              className="icon"
+              onClick={[Function]}
+>
+              ☰
+</a>,
           ],
           "className": "menu",
         },
@@ -318,11 +220,12 @@ ShallowWrapper {
               "children": <NavLink
                 activeClassName="active"
                 aria-current="page"
-                className="nav drop-btn"
+                className=" active"
                 to="/"
 >
                 Home
 </NavLink>,
+              "className": "dropdown",
             },
             "ref": null,
             "rendered": Object {
@@ -333,155 +236,13 @@ ShallowWrapper {
                 "activeClassName": "active",
                 "aria-current": "page",
                 "children": "Home",
-                "className": "nav drop-btn",
+                "className": " active",
                 "to": "/",
               },
               "ref": null,
               "rendered": "Home",
               "type": [Function],
             },
-            "type": "li",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": Array [
-                <li>
-                  <NavLink
-                                    activeClassName="active"
-                                    aria-current="page"
-                                    className="nav drop-btn"
-                                    to="/resilience"
-                  >
-                                    Resilience Training
-                  </NavLink>
-</li>,
-                <div
-                  className="dropdown-content"
->
-                  <p>
-                                    Schools
-                  </p>
-                  <p>
-                                    Professionals
-                  </p>
-                  <p>
-                                    Teen Resilience Program
-                  </p>
-                  <p>
-                                    Families
-                  </p>
-</div>,
-              ],
-              "className": "dropdown",
-            },
-            "ref": null,
-            "rendered": Array [
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": <NavLink
-                    activeClassName="active"
-                    aria-current="page"
-                    className="nav drop-btn"
-                    to="/resilience"
->
-                    Resilience Training
-</NavLink>,
-                },
-                "ref": null,
-                "rendered": Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "function",
-                  "props": Object {
-                    "activeClassName": "active",
-                    "aria-current": "page",
-                    "children": "Resilience Training",
-                    "className": "nav drop-btn",
-                    "to": "/resilience",
-                  },
-                  "ref": null,
-                  "rendered": "Resilience Training",
-                  "type": [Function],
-                },
-                "type": "li",
-              },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": Array [
-                    <p>
-                      Schools
-</p>,
-                    <p>
-                      Professionals
-</p>,
-                    <p>
-                      Teen Resilience Program
-</p>,
-                    <p>
-                      Families
-</p>,
-                  ],
-                  "className": "dropdown-content",
-                },
-                "ref": null,
-                "rendered": Array [
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": "Schools",
-                    },
-                    "ref": null,
-                    "rendered": "Schools",
-                    "type": "p",
-                  },
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": "Professionals",
-                    },
-                    "ref": null,
-                    "rendered": "Professionals",
-                    "type": "p",
-                  },
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": "Teen Resilience Program",
-                    },
-                    "ref": null,
-                    "rendered": "Teen Resilience Program",
-                    "type": "p",
-                  },
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": "Families",
-                    },
-                    "ref": null,
-                    "rendered": "Families",
-                    "type": "p",
-                  },
-                ],
-                "type": "div",
-              },
-            ],
             "type": "div",
           },
           Object {
@@ -489,50 +250,31 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": <li>
-                <NavLink
-                                activeClassName="active"
-                                aria-current="page"
-                                className="nav drop-btn"
-                                to="/parenting"
-                >
-                                Parenting Seminars
-                </NavLink>
-</li>,
+              "children": <NavLink
+                activeClassName="active"
+                aria-current="page"
+                className="nav drop-btn"
+                to="/resilience"
+>
+                Resilience Training
+</NavLink>,
               "className": "dropdown",
             },
             "ref": null,
             "rendered": Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "host",
+              "nodeType": "function",
               "props": Object {
-                "children": <NavLink
-                  activeClassName="active"
-                  aria-current="page"
-                  className="nav drop-btn"
-                  to="/parenting"
->
-                  Parenting Seminars
-</NavLink>,
+                "activeClassName": "active",
+                "aria-current": "page",
+                "children": "Resilience Training",
+                "className": "nav drop-btn",
+                "to": "/resilience",
               },
               "ref": null,
-              "rendered": Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "function",
-                "props": Object {
-                  "activeClassName": "active",
-                  "aria-current": "page",
-                  "children": "Parenting Seminars",
-                  "className": "nav drop-btn",
-                  "to": "/parenting",
-                },
-                "ref": null,
-                "rendered": "Parenting Seminars",
-                "type": [Function],
-              },
-              "type": "li",
+              "rendered": "Resilience Training",
+              "type": [Function],
             },
             "type": "div",
           },
@@ -541,124 +283,32 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": Array [
-                <li>
-                  <NavLink
-                                    activeClassName="active"
-                                    aria-current="page"
-                                    className="nav drop-btn"
-                                    to="/psychotherapy"
-                  >
-                                    Psychotherapy
-                  </NavLink>
-</li>,
-                <div
-                  className="dropdown-content"
+              "children": <NavLink
+                activeClassName="active"
+                aria-current="page"
+                className="nav drop-btn"
+                to="/parenting"
 >
-                  <p>
-                                    Family Therapy
-                  </p>
-                  <p>
-                                    Adult Therapy
-                  </p>
-                  <p>
-                                    Adolescent and Child Therapy
-                  </p>
-</div>,
-              ],
+                Parenting Seminars
+</NavLink>,
               "className": "dropdown",
             },
             "ref": null,
-            "rendered": Array [
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": <NavLink
-                    activeClassName="active"
-                    aria-current="page"
-                    className="nav drop-btn"
-                    to="/psychotherapy"
->
-                    Psychotherapy
-</NavLink>,
-                },
-                "ref": null,
-                "rendered": Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "function",
-                  "props": Object {
-                    "activeClassName": "active",
-                    "aria-current": "page",
-                    "children": "Psychotherapy",
-                    "className": "nav drop-btn",
-                    "to": "/psychotherapy",
-                  },
-                  "ref": null,
-                  "rendered": "Psychotherapy",
-                  "type": [Function],
-                },
-                "type": "li",
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "activeClassName": "active",
+                "aria-current": "page",
+                "children": "Parenting Seminars",
+                "className": "nav drop-btn",
+                "to": "/parenting",
               },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": Array [
-                    <p>
-                      Family Therapy
-</p>,
-                    <p>
-                      Adult Therapy
-</p>,
-                    <p>
-                      Adolescent and Child Therapy
-</p>,
-                  ],
-                  "className": "dropdown-content",
-                },
-                "ref": null,
-                "rendered": Array [
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": "Family Therapy",
-                    },
-                    "ref": null,
-                    "rendered": "Family Therapy",
-                    "type": "p",
-                  },
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": "Adult Therapy",
-                    },
-                    "ref": null,
-                    "rendered": "Adult Therapy",
-                    "type": "p",
-                  },
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": "Adolescent and Child Therapy",
-                    },
-                    "ref": null,
-                    "rendered": "Adolescent and Child Therapy",
-                    "type": "p",
-                  },
-                ],
-                "type": "div",
-              },
-            ],
+              "ref": null,
+              "rendered": "Parenting Seminars",
+              "type": [Function],
+            },
             "type": "div",
           },
           Object {
@@ -666,124 +316,32 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": Array [
-                <li>
-                  <NavLink
-                                    activeClassName="active"
-                                    aria-current="page"
-                                    className="nav drop-btn"
-                                    to="/speaking"
-                  >
-                                    Speaking and  Training
-                  </NavLink>
-</li>,
-                <div
-                  className="dropdown-content"
+              "children": <NavLink
+                activeClassName="active"
+                aria-current="page"
+                className="nav drop-btn"
+                to="/psychotherapy"
 >
-                  <p>
-                                    Schools
-                  </p>
-                  <p>
-                                    Clinicians and Human Service Providers
-                  </p>
-                  <p>
-                                    Church Ministries and Youth Workers
-                  </p>
-</div>,
-              ],
+                Psychotherapy
+</NavLink>,
               "className": "dropdown",
             },
             "ref": null,
-            "rendered": Array [
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": <NavLink
-                    activeClassName="active"
-                    aria-current="page"
-                    className="nav drop-btn"
-                    to="/speaking"
->
-                    Speaking and  Training
-</NavLink>,
-                },
-                "ref": null,
-                "rendered": Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "function",
-                  "props": Object {
-                    "activeClassName": "active",
-                    "aria-current": "page",
-                    "children": "Speaking and  Training",
-                    "className": "nav drop-btn",
-                    "to": "/speaking",
-                  },
-                  "ref": null,
-                  "rendered": "Speaking and  Training",
-                  "type": [Function],
-                },
-                "type": "li",
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "activeClassName": "active",
+                "aria-current": "page",
+                "children": "Psychotherapy",
+                "className": "nav drop-btn",
+                "to": "/psychotherapy",
               },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": Array [
-                    <p>
-                      Schools
-</p>,
-                    <p>
-                      Clinicians and Human Service Providers
-</p>,
-                    <p>
-                      Church Ministries and Youth Workers
-</p>,
-                  ],
-                  "className": "dropdown-content",
-                },
-                "ref": null,
-                "rendered": Array [
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": "Schools",
-                    },
-                    "ref": null,
-                    "rendered": "Schools",
-                    "type": "p",
-                  },
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": "Clinicians and Human Service Providers",
-                    },
-                    "ref": null,
-                    "rendered": "Clinicians and Human Service Providers",
-                    "type": "p",
-                  },
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": "Church Ministries and Youth Workers",
-                    },
-                    "ref": null,
-                    "rendered": "Church Ministries and Youth Workers",
-                    "type": "p",
-                  },
-                ],
-                "type": "div",
-              },
-            ],
+              "ref": null,
+              "rendered": "Psychotherapy",
+              "type": [Function],
+            },
             "type": "div",
           },
           Object {
@@ -799,6 +357,7 @@ ShallowWrapper {
 >
                 Family Coaching
 </NavLink>,
+              "className": "dropdown",
             },
             "ref": null,
             "rendered": Object {
@@ -816,7 +375,7 @@ ShallowWrapper {
               "rendered": "Family Coaching",
               "type": [Function],
             },
-            "type": "li",
+            "type": "div",
           },
           Object {
             "instance": null,
@@ -831,6 +390,7 @@ ShallowWrapper {
 >
                 Contact
 </NavLink>,
+              "className": "dropdown",
             },
             "ref": null,
             "rendered": Object {
@@ -848,7 +408,20 @@ ShallowWrapper {
               "rendered": "Contact",
               "type": [Function],
             },
-            "type": "li",
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "☰",
+              "className": "icon",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "☰",
+            "type": "a",
           },
         ],
         "type": "ul",
@@ -871,115 +444,57 @@ ShallowWrapper {
           <ul
             className="menu"
 >
-            <li>
+            <div
+                        className="dropdown"
+            >
                         <NavLink
                                     activeClassName="active"
                                     aria-current="page"
-                                    className="nav drop-btn"
+                                    className=" active"
                                     to="/"
                         >
                                     Home
                         </NavLink>
-            </li>
+            </div>
             <div
                         className="dropdown"
             >
-                        <li>
-                                    <NavLink
-                                                activeClassName="active"
-                                                aria-current="page"
-                                                className="nav drop-btn"
-                                                to="/resilience"
-                                    >
-                                                Resilience Training
-                                    </NavLink>
-                        </li>
-                        <div
-                                    className="dropdown-content"
+                        <NavLink
+                                    activeClassName="active"
+                                    aria-current="page"
+                                    className="nav drop-btn"
+                                    to="/resilience"
                         >
-                                    <p>
-                                                Schools
-                                    </p>
-                                    <p>
-                                                Professionals
-                                    </p>
-                                    <p>
-                                                Teen Resilience Program
-                                    </p>
-                                    <p>
-                                                Families
-                                    </p>
-                        </div>
+                                    Resilience Training
+                        </NavLink>
             </div>
             <div
                         className="dropdown"
             >
-                        <li>
-                                    <NavLink
-                                                activeClassName="active"
-                                                aria-current="page"
-                                                className="nav drop-btn"
-                                                to="/parenting"
-                                    >
-                                                Parenting Seminars
-                                    </NavLink>
-                        </li>
-            </div>
-            <div
-                        className="dropdown"
-            >
-                        <li>
-                                    <NavLink
-                                                activeClassName="active"
-                                                aria-current="page"
-                                                className="nav drop-btn"
-                                                to="/psychotherapy"
-                                    >
-                                                Psychotherapy
-                                    </NavLink>
-                        </li>
-                        <div
-                                    className="dropdown-content"
+                        <NavLink
+                                    activeClassName="active"
+                                    aria-current="page"
+                                    className="nav drop-btn"
+                                    to="/parenting"
                         >
-                                    <p>
-                                                Family Therapy
-                                    </p>
-                                    <p>
-                                                Adult Therapy
-                                    </p>
-                                    <p>
-                                                Adolescent and Child Therapy
-                                    </p>
-                        </div>
+                                    Parenting Seminars
+                        </NavLink>
             </div>
             <div
                         className="dropdown"
             >
-                        <li>
-                                    <NavLink
-                                                activeClassName="active"
-                                                aria-current="page"
-                                                className="nav drop-btn"
-                                                to="/speaking"
-                                    >
-                                                Speaking and  Training
-                                    </NavLink>
-                        </li>
-                        <div
-                                    className="dropdown-content"
+                        <NavLink
+                                    activeClassName="active"
+                                    aria-current="page"
+                                    className="nav drop-btn"
+                                    to="/psychotherapy"
                         >
-                                    <p>
-                                                Schools
-                                    </p>
-                                    <p>
-                                                Clinicians and Human Service Providers
-                                    </p>
-                                    <p>
-                                                Church Ministries and Youth Workers
-                                    </p>
-                        </div>
+                                    Psychotherapy
+                        </NavLink>
             </div>
-            <li>
+            <div
+                        className="dropdown"
+            >
                         <NavLink
                                     activeClassName="active"
                                     aria-current="page"
@@ -988,8 +503,10 @@ ShallowWrapper {
                         >
                                     Family Coaching
                         </NavLink>
-            </li>
-            <li>
+            </div>
+            <div
+                        className="dropdown"
+            >
                         <NavLink
                                     activeClassName="active"
                                     aria-current="page"
@@ -998,9 +515,17 @@ ShallowWrapper {
                         >
                                     Contact
                         </NavLink>
-            </li>
+            </div>
+            <a
+                        className="icon"
+                        onClick={[Function]}
+            >
+                        ☰
+            </a>
 </ul>,
         ],
+        "className": "topnav",
+        "id": "myTopnav",
       },
       "ref": null,
       "rendered": Array [
@@ -1022,115 +547,57 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              <li>
+              <div
+                className="dropdown"
+>
                 <NavLink
                                 activeClassName="active"
                                 aria-current="page"
-                                className="nav drop-btn"
+                                className=" active"
                                 to="/"
                 >
                                 Home
                 </NavLink>
-</li>,
+</div>,
               <div
                 className="dropdown"
 >
-                <li>
-                                <NavLink
-                                                activeClassName="active"
-                                                aria-current="page"
-                                                className="nav drop-btn"
-                                                to="/resilience"
-                                >
-                                                Resilience Training
-                                </NavLink>
-                </li>
-                <div
-                                className="dropdown-content"
+                <NavLink
+                                activeClassName="active"
+                                aria-current="page"
+                                className="nav drop-btn"
+                                to="/resilience"
                 >
-                                <p>
-                                                Schools
-                                </p>
-                                <p>
-                                                Professionals
-                                </p>
-                                <p>
-                                                Teen Resilience Program
-                                </p>
-                                <p>
-                                                Families
-                                </p>
-                </div>
+                                Resilience Training
+                </NavLink>
 </div>,
               <div
                 className="dropdown"
 >
-                <li>
-                                <NavLink
-                                                activeClassName="active"
-                                                aria-current="page"
-                                                className="nav drop-btn"
-                                                to="/parenting"
-                                >
-                                                Parenting Seminars
-                                </NavLink>
-                </li>
-</div>,
-              <div
-                className="dropdown"
->
-                <li>
-                                <NavLink
-                                                activeClassName="active"
-                                                aria-current="page"
-                                                className="nav drop-btn"
-                                                to="/psychotherapy"
-                                >
-                                                Psychotherapy
-                                </NavLink>
-                </li>
-                <div
-                                className="dropdown-content"
+                <NavLink
+                                activeClassName="active"
+                                aria-current="page"
+                                className="nav drop-btn"
+                                to="/parenting"
                 >
-                                <p>
-                                                Family Therapy
-                                </p>
-                                <p>
-                                                Adult Therapy
-                                </p>
-                                <p>
-                                                Adolescent and Child Therapy
-                                </p>
-                </div>
+                                Parenting Seminars
+                </NavLink>
 </div>,
               <div
                 className="dropdown"
 >
-                <li>
-                                <NavLink
-                                                activeClassName="active"
-                                                aria-current="page"
-                                                className="nav drop-btn"
-                                                to="/speaking"
-                                >
-                                                Speaking and  Training
-                                </NavLink>
-                </li>
-                <div
-                                className="dropdown-content"
+                <NavLink
+                                activeClassName="active"
+                                aria-current="page"
+                                className="nav drop-btn"
+                                to="/psychotherapy"
                 >
-                                <p>
-                                                Schools
-                                </p>
-                                <p>
-                                                Clinicians and Human Service Providers
-                                </p>
-                                <p>
-                                                Church Ministries and Youth Workers
-                                </p>
-                </div>
+                                Psychotherapy
+                </NavLink>
 </div>,
-              <li>
+              <div
+                className="dropdown"
+>
                 <NavLink
                                 activeClassName="active"
                                 aria-current="page"
@@ -1139,8 +606,10 @@ ShallowWrapper {
                 >
                                 Family Coaching
                 </NavLink>
-</li>,
-              <li>
+</div>,
+              <div
+                className="dropdown"
+>
                 <NavLink
                                 activeClassName="active"
                                 aria-current="page"
@@ -1149,7 +618,13 @@ ShallowWrapper {
                 >
                                 Contact
                 </NavLink>
-</li>,
+</div>,
+              <a
+                className="icon"
+                onClick={[Function]}
+>
+                ☰
+</a>,
             ],
             "className": "menu",
           },
@@ -1163,11 +638,12 @@ ShallowWrapper {
                 "children": <NavLink
                   activeClassName="active"
                   aria-current="page"
-                  className="nav drop-btn"
+                  className=" active"
                   to="/"
 >
                   Home
 </NavLink>,
+                "className": "dropdown",
               },
               "ref": null,
               "rendered": Object {
@@ -1178,155 +654,13 @@ ShallowWrapper {
                   "activeClassName": "active",
                   "aria-current": "page",
                   "children": "Home",
-                  "className": "nav drop-btn",
+                  "className": " active",
                   "to": "/",
                 },
                 "ref": null,
                 "rendered": "Home",
                 "type": [Function],
               },
-              "type": "li",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": Array [
-                  <li>
-                    <NavLink
-                                        activeClassName="active"
-                                        aria-current="page"
-                                        className="nav drop-btn"
-                                        to="/resilience"
-                    >
-                                        Resilience Training
-                    </NavLink>
-</li>,
-                  <div
-                    className="dropdown-content"
->
-                    <p>
-                                        Schools
-                    </p>
-                    <p>
-                                        Professionals
-                    </p>
-                    <p>
-                                        Teen Resilience Program
-                    </p>
-                    <p>
-                                        Families
-                    </p>
-</div>,
-                ],
-                "className": "dropdown",
-              },
-              "ref": null,
-              "rendered": Array [
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": <NavLink
-                      activeClassName="active"
-                      aria-current="page"
-                      className="nav drop-btn"
-                      to="/resilience"
->
-                      Resilience Training
-</NavLink>,
-                  },
-                  "ref": null,
-                  "rendered": Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "function",
-                    "props": Object {
-                      "activeClassName": "active",
-                      "aria-current": "page",
-                      "children": "Resilience Training",
-                      "className": "nav drop-btn",
-                      "to": "/resilience",
-                    },
-                    "ref": null,
-                    "rendered": "Resilience Training",
-                    "type": [Function],
-                  },
-                  "type": "li",
-                },
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": Array [
-                      <p>
-                        Schools
-</p>,
-                      <p>
-                        Professionals
-</p>,
-                      <p>
-                        Teen Resilience Program
-</p>,
-                      <p>
-                        Families
-</p>,
-                    ],
-                    "className": "dropdown-content",
-                  },
-                  "ref": null,
-                  "rendered": Array [
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": "Schools",
-                      },
-                      "ref": null,
-                      "rendered": "Schools",
-                      "type": "p",
-                    },
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": "Professionals",
-                      },
-                      "ref": null,
-                      "rendered": "Professionals",
-                      "type": "p",
-                    },
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": "Teen Resilience Program",
-                      },
-                      "ref": null,
-                      "rendered": "Teen Resilience Program",
-                      "type": "p",
-                    },
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": "Families",
-                      },
-                      "ref": null,
-                      "rendered": "Families",
-                      "type": "p",
-                    },
-                  ],
-                  "type": "div",
-                },
-              ],
               "type": "div",
             },
             Object {
@@ -1334,50 +668,31 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": <li>
-                  <NavLink
-                                    activeClassName="active"
-                                    aria-current="page"
-                                    className="nav drop-btn"
-                                    to="/parenting"
-                  >
-                                    Parenting Seminars
-                  </NavLink>
-</li>,
+                "children": <NavLink
+                  activeClassName="active"
+                  aria-current="page"
+                  className="nav drop-btn"
+                  to="/resilience"
+>
+                  Resilience Training
+</NavLink>,
                 "className": "dropdown",
               },
               "ref": null,
               "rendered": Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "host",
+                "nodeType": "function",
                 "props": Object {
-                  "children": <NavLink
-                    activeClassName="active"
-                    aria-current="page"
-                    className="nav drop-btn"
-                    to="/parenting"
->
-                    Parenting Seminars
-</NavLink>,
+                  "activeClassName": "active",
+                  "aria-current": "page",
+                  "children": "Resilience Training",
+                  "className": "nav drop-btn",
+                  "to": "/resilience",
                 },
                 "ref": null,
-                "rendered": Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "function",
-                  "props": Object {
-                    "activeClassName": "active",
-                    "aria-current": "page",
-                    "children": "Parenting Seminars",
-                    "className": "nav drop-btn",
-                    "to": "/parenting",
-                  },
-                  "ref": null,
-                  "rendered": "Parenting Seminars",
-                  "type": [Function],
-                },
-                "type": "li",
+                "rendered": "Resilience Training",
+                "type": [Function],
               },
               "type": "div",
             },
@@ -1386,124 +701,32 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": Array [
-                  <li>
-                    <NavLink
-                                        activeClassName="active"
-                                        aria-current="page"
-                                        className="nav drop-btn"
-                                        to="/psychotherapy"
-                    >
-                                        Psychotherapy
-                    </NavLink>
-</li>,
-                  <div
-                    className="dropdown-content"
+                "children": <NavLink
+                  activeClassName="active"
+                  aria-current="page"
+                  className="nav drop-btn"
+                  to="/parenting"
 >
-                    <p>
-                                        Family Therapy
-                    </p>
-                    <p>
-                                        Adult Therapy
-                    </p>
-                    <p>
-                                        Adolescent and Child Therapy
-                    </p>
-</div>,
-                ],
+                  Parenting Seminars
+</NavLink>,
                 "className": "dropdown",
               },
               "ref": null,
-              "rendered": Array [
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": <NavLink
-                      activeClassName="active"
-                      aria-current="page"
-                      className="nav drop-btn"
-                      to="/psychotherapy"
->
-                      Psychotherapy
-</NavLink>,
-                  },
-                  "ref": null,
-                  "rendered": Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "function",
-                    "props": Object {
-                      "activeClassName": "active",
-                      "aria-current": "page",
-                      "children": "Psychotherapy",
-                      "className": "nav drop-btn",
-                      "to": "/psychotherapy",
-                    },
-                    "ref": null,
-                    "rendered": "Psychotherapy",
-                    "type": [Function],
-                  },
-                  "type": "li",
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "activeClassName": "active",
+                  "aria-current": "page",
+                  "children": "Parenting Seminars",
+                  "className": "nav drop-btn",
+                  "to": "/parenting",
                 },
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": Array [
-                      <p>
-                        Family Therapy
-</p>,
-                      <p>
-                        Adult Therapy
-</p>,
-                      <p>
-                        Adolescent and Child Therapy
-</p>,
-                    ],
-                    "className": "dropdown-content",
-                  },
-                  "ref": null,
-                  "rendered": Array [
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": "Family Therapy",
-                      },
-                      "ref": null,
-                      "rendered": "Family Therapy",
-                      "type": "p",
-                    },
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": "Adult Therapy",
-                      },
-                      "ref": null,
-                      "rendered": "Adult Therapy",
-                      "type": "p",
-                    },
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": "Adolescent and Child Therapy",
-                      },
-                      "ref": null,
-                      "rendered": "Adolescent and Child Therapy",
-                      "type": "p",
-                    },
-                  ],
-                  "type": "div",
-                },
-              ],
+                "ref": null,
+                "rendered": "Parenting Seminars",
+                "type": [Function],
+              },
               "type": "div",
             },
             Object {
@@ -1511,124 +734,32 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": Array [
-                  <li>
-                    <NavLink
-                                        activeClassName="active"
-                                        aria-current="page"
-                                        className="nav drop-btn"
-                                        to="/speaking"
-                    >
-                                        Speaking and  Training
-                    </NavLink>
-</li>,
-                  <div
-                    className="dropdown-content"
+                "children": <NavLink
+                  activeClassName="active"
+                  aria-current="page"
+                  className="nav drop-btn"
+                  to="/psychotherapy"
 >
-                    <p>
-                                        Schools
-                    </p>
-                    <p>
-                                        Clinicians and Human Service Providers
-                    </p>
-                    <p>
-                                        Church Ministries and Youth Workers
-                    </p>
-</div>,
-                ],
+                  Psychotherapy
+</NavLink>,
                 "className": "dropdown",
               },
               "ref": null,
-              "rendered": Array [
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": <NavLink
-                      activeClassName="active"
-                      aria-current="page"
-                      className="nav drop-btn"
-                      to="/speaking"
->
-                      Speaking and  Training
-</NavLink>,
-                  },
-                  "ref": null,
-                  "rendered": Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "function",
-                    "props": Object {
-                      "activeClassName": "active",
-                      "aria-current": "page",
-                      "children": "Speaking and  Training",
-                      "className": "nav drop-btn",
-                      "to": "/speaking",
-                    },
-                    "ref": null,
-                    "rendered": "Speaking and  Training",
-                    "type": [Function],
-                  },
-                  "type": "li",
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "activeClassName": "active",
+                  "aria-current": "page",
+                  "children": "Psychotherapy",
+                  "className": "nav drop-btn",
+                  "to": "/psychotherapy",
                 },
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": Array [
-                      <p>
-                        Schools
-</p>,
-                      <p>
-                        Clinicians and Human Service Providers
-</p>,
-                      <p>
-                        Church Ministries and Youth Workers
-</p>,
-                    ],
-                    "className": "dropdown-content",
-                  },
-                  "ref": null,
-                  "rendered": Array [
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": "Schools",
-                      },
-                      "ref": null,
-                      "rendered": "Schools",
-                      "type": "p",
-                    },
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": "Clinicians and Human Service Providers",
-                      },
-                      "ref": null,
-                      "rendered": "Clinicians and Human Service Providers",
-                      "type": "p",
-                    },
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": "Church Ministries and Youth Workers",
-                      },
-                      "ref": null,
-                      "rendered": "Church Ministries and Youth Workers",
-                      "type": "p",
-                    },
-                  ],
-                  "type": "div",
-                },
-              ],
+                "ref": null,
+                "rendered": "Psychotherapy",
+                "type": [Function],
+              },
               "type": "div",
             },
             Object {
@@ -1644,6 +775,7 @@ ShallowWrapper {
 >
                   Family Coaching
 </NavLink>,
+                "className": "dropdown",
               },
               "ref": null,
               "rendered": Object {
@@ -1661,7 +793,7 @@ ShallowWrapper {
                 "rendered": "Family Coaching",
                 "type": [Function],
               },
-              "type": "li",
+              "type": "div",
             },
             Object {
               "instance": null,
@@ -1676,6 +808,7 @@ ShallowWrapper {
 >
                   Contact
 </NavLink>,
+                "className": "dropdown",
               },
               "ref": null,
               "rendered": Object {
@@ -1693,7 +826,20 @@ ShallowWrapper {
                 "rendered": "Contact",
                 "type": [Function],
               },
-              "type": "li",
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "☰",
+                "className": "icon",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "☰",
+              "type": "a",
             },
           ],
           "type": "ul",
