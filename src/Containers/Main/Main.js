@@ -4,7 +4,6 @@ import DisplayPage from '../DisplayPage/DisplayPage';
 import { Route } from 'react-router-dom';
 import './Main.css';
 import SignInPage from '../../Components/SignIn/SignIn';
-import SignUpPage from '../../Components/SignUp/SignUp';
 
 export const Main = () => {
   return (
@@ -16,10 +15,6 @@ export const Main = () => {
       <Route
         exact path="/signin"
         component={SignInPage}
-      />
-      <Route
-        exact path="/signup"
-        component={SignUpPage}
       />
       <Route
         exact path="/resilience"

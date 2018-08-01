@@ -2,7 +2,6 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { Route } from 'react-router'
 import SignInPage from '../../Components/SignIn/SignIn'
-import SignUpPage from '../../Components/SignUp/SignUp'
 
 import PsychHome from '../../Components/PsychHome/PsychHome'
 import './Header.css';

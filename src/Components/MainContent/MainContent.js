@@ -2,7 +2,7 @@ import React from 'react';
 import { Route } from 'react-router'
 import PsychHome from '../PsychHome/PsychHome';
 import SignInPage from '../SignIn/SignIn';
-import SignUpPage from '../SignUp/SignUp';
+// import SignUpPage from '../SignUp/SignUp';
 import { ResilienceTraining } from '../ResilienceTraining/ResilienceTraining';
 import { Parenting } from '../Parenting/Parenting'
 import { Speaking } from '../Speaking/Speaking';
@@ -23,10 +23,6 @@ const MainContent = () => {
     <Route
     exact path="/signin"
     component={SignInPage}
-  />
-  <Route
-    exact path="/signup"
-    component={SignUpPage}
   />
   <Route
     exact path="/resilience"

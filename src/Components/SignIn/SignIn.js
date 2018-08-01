@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom';
 import './SignIn.css';
-import { SignUpLink } from '../SignUp/SignUp';
+// import { SignUpLink } from '../SignUp/SignUp';
 import { auth } from '../../firebase';
 import * as routes from '../../constants/routes';
 

@@ -31,11 +31,6 @@ ShallowWrapper {
         <Route
           component={[Function]}
           exact={true}
-          path="/signup"
-/>,
-        <Route
-          component={[Function]}
-          exact={true}
           path="/resilience"
 />,
         <Route
@@ -99,19 +94,6 @@ ShallowWrapper {
           "component": [Function],
           "exact": true,
           "path": "/signin",
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "component": [Function],
-          "exact": true,
-          "path": "/signup",
         },
         "ref": null,
         "rendered": null,
@@ -244,11 +226,6 @@ ShallowWrapper {
           <Route
             component={[Function]}
             exact={true}
-            path="/signup"
-/>,
-          <Route
-            component={[Function]}
-            exact={true}
             path="/resilience"
 />,
           <Route
@@ -312,19 +289,6 @@ ShallowWrapper {
             "component": [Function],
             "exact": true,
             "path": "/signin",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "component": [Function],
-            "exact": true,
-            "path": "/signup",
           },
           "ref": null,
           "rendered": null,
