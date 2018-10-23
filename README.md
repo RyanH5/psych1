@@ -8,4 +8,3 @@ Run npm install in terminal
 Run npm start to launch the app
 
 <img src ="Screen Shot 2018-08-01 at 9.23.40 AM.png" />
-<img src ="Screen Shot 2018-08-01 at 10.09.24 AM.png" />
